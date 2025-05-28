@@ -358,8 +358,8 @@
 						<m k="bicycle" v="~">
 							<line use="bolt-track-raw" />
 							<line use="roam-track-raw" />
-							<line use="bolt2-track-raw" width="0.4" stroke="#000000"/>
-							<line use="bolt2-track-raw-dark" width="0.4" stroke="#000000"/>
+							<line use="bolt2-track-raw" width="0.1" stroke="#999999" dasharray="20,10"/>
+							<line use="bolt2-track-raw-dark" width="0.1" stroke="#999999" dasharray="20,10"/>
 						</m>
 					</m>
 
@@ -651,4 +651,8 @@
 		</m>
 	</m>
 	<!-- endregion place -->
+
+
+
+
 </rendertheme>
