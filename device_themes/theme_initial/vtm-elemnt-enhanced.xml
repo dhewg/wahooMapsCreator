@@ -5,50 +5,50 @@
 
 	<stylemenu id="stylemenu" defaultvalue="BOLT_2" defaultlang="en">
 
-		<layer id="BOLT_2">
+		<layer id="BOLT_2" visible="true">
 			<name lang="en" value="Bolt2"/>
 			<cat id="bolt2"/>
 			<cat id="trails-osm"/>
 		</layer>
 
-		<layer id="BOLT_2-DARK">
-			<name lang="en" value="Bolt2"/>
+		<layer id="BOLT_2-DARK" visible="true">
+			<name lang="en" value="Bolt2 Dark"/>
 			<cat id="bolt2-dark"/>
 			<cat id="trails-osm"/>
 		</layer>
 
-		<layer id="BOLT_2-TF">
-			<name lang="en" value="TF"/>
+		<layer id="BOLT_2-TF" visible="true">
+			<name lang="en" value="Bolt2 TF"/>
 			<cat id="bolt2"/>
 			<cat id="trails-tf"/>
 		</layer>
 
-		<layer id="BOLT_2-DARK-TF">
-			<name lang="en" value="TF"/>
+		<layer id="BOLT_2-DARK-TF" visible="true">
+			<name lang="en" value="Bolt2 Dark TF"/>
 			<cat id="bolt2-dark"/>
 			<cat id="trails-tf"/>
 		</layer>
 
-		<layer id="ROAM_2">
+		<layer id="ROAM_2" visible="true">
 			<name lang="en" value="Roam2"/>
 			<cat id="roam2"/>
 			<cat id="trails-osm"/>
 		</layer>
 
-		<layer id="ROAM_2-DARK">
-			<name lang="en" value="Roam2"/>
+		<layer id="ROAM_2-DARK" visible="true">
+			<name lang="en" value="Roam2 Dark"/>
 			<cat id="roam2-dark"/>
 			<cat id="trails-osm"/>
 		</layer>
 
-		<layer id="ROAM_2-TF">
-			<name lang="en" value="TF"/>
+		<layer id="ROAM_2-TF" visible="true">
+			<name lang="en" value="Roam2 TF"/>
 			<cat id="roam2"/>
 			<cat id="trails-tf"/>
 		</layer>
 
-		<layer id="ROAM_2-DARK-TF">
-			<name lang="en" value="TF"/>
+		<layer id="ROAM_2-DARK-TF" visible="true">
+			<name lang="en" value="Roam2 Dark TF"/>
 			<cat id="roam2-dark"/>
 			<cat id="trails-tf"/>
 		</layer>
