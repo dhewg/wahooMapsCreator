@@ -156,6 +156,24 @@
     <osm-tag key="route" value="ferry" zoom-appear="12" />
   </ways>
 
+  <!-- TAGS USED STARTING WITH ROAM1 -->
+  <ways>
+    <osm-tag key="amenity" value="hospital" zoom-appear="12" />
+
+    <osm-tag key="natural" value="beach" zoom-appear="12" />
+    <osm-tag key="natural" value="scrub" zoom-appear="8" />
+    <osm-tag key="natural" value="trees" zoom-appear="9" />
+    <osm-tag key="natural" value="wetland" zoom-appear="8" />
+    <osm-tag key="natural" value="wood" zoom-appear="9" />
+
+    <osm-tag key="landuse" value="building" equivalent-values="commercial,industrial,residential,retail" zoom-appear="10" />
+    <osm-tag key="landuse" value="forest" zoom-appear="8" />
+    <osm-tag key="leisure" label-position="true" value="nature_reserve" zoom-appear="8" />
+    <osm-tag key="leisure" label-position="true" value="park" zoom-appear="8" />
+
+    <osm-tag key="waterway" value="drain" zoom-appear="14"/>
+  </ways>
+
   <!-- NOT TO RENDER -->
   <ways>
     <osm-tag key="access" value="private" renderable="false"/>
