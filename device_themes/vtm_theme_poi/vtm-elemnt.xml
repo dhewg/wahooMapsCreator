@@ -897,9 +897,6 @@
             </m>
         </m>
     </m>
-    <m e="way" k="route" v="bicycle|mtb">
-        <line stroke="#FF00FF" width="2.0" cap="butt"/>
-    </m>
     <!-- endregion railway (no tunnel) -->
     <!-- region place captions -->
     <m k="place">
