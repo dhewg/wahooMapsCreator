@@ -1,27 +1,29 @@
 {
     "TAGS_TO_KEEP_UNIVERSAL": {
         "access": "",
+        "admin_level": "2",
         "area": "yes",
         "bicycle": "",
         "bridge": "",
-        "foot": [
-            "ft_yes",
-            "foot_designated"
+        "aeroway": [
+            "aerodrome",
+            "runway",
+            "taxiway"
         ],
         "amenity": [
-            "fuel",
             "cafe",
             "drinking_water",
-            "shelter"
+            "fuel",
+            "hospital"
+        ],
+        "place": [
+            "square"
         ],
         "shop": [
             "bakery",
             "bicycle"
         ],
         "highway": [
-            "abandoned",
-            "bus_guideway",
-            "disused",
             "bridleway",
             "byway",
             "construction",
@@ -47,66 +49,70 @@
             "trunk_link",
             "unclassified"
         ],
+        "man_made": [
+            "cutline",
+            "pier"
+        ],
         "natural": [
-            "coastline",
             "nosea",
             "sea",
             "beach",
-            "land",
             "scrub",
-            "water",
+            "trees",
             "wetland",
             "wood"
         ],
         "landuse": [
-            "forest",
             "commercial",
+            "forest",
             "industrial",
+            "military",
+            "reservoir",
             "residential",
             "retail"
-        ],
-        "leisure": [
-            "park",
-            "nature_reserve"
         ],
         "location": [
             "underground"
         ],
         "railway": [
+            "halt",
+            "light_rail",
             "rail",
-            "tram",
             "station",
-            "stop"
+            "tram"
         ],
         "surface": "",
         "tracktype": "",
         "tunnel": "",
         "waterway": [
-            "canal",
             "drain",
-            "river",
             "riverbank",
             "stream"
-        ],
-        "wood": "deciduous",
-        "tourism": "alpine_hut"
+        ]
     },
     "NAME_TAGS_TO_KEEP_UNIVERSAL": {
-        "admin_level": "2",
-        "area": "yes",
-        "mountain_pass": "",
-        "natural": "",
+        "leisure": [
+            "park",
+            "nature_reserve"
+        ],
+        "natural": [
+            "water"
+        ],
         "place": [
             "city",
-            "hamlet",
+            "country",
             "island",
-            "isolated_dwelling",
-            "islet",
             "locality",
             "suburb",
             "town",
-            "village",
-            "country"
+            "village"
+        ],
+        "route": [
+            "ferry"
+        ],
+        "waterway": [
+            "canal",
+            "river"
         ]
     }
 }
