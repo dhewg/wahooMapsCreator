@@ -662,7 +662,7 @@
                 </m>
                 <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
                     <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="4"/>
-                    <line cat="roam" outline="highway-roam" stroke="#FF0000" width="4"/>
+                    <line cat="roam" outline="roam-highway" stroke="#FF0000" width="4"/>
                     <line cat="bolt2" outline="bolt2-highway" stroke="#BB0000" width="4"/>
                     <line cat="roam2" outline="roam2-highway" stroke="#BB0000" width="4"/>
                 </m>
