@@ -31,4 +31,16 @@
       <tag k="highway" v="service:disabled"/>
     </output>
   </translation>
+
+  <translation>
+    <name>Disable underground waterways</name>
+    <match type="way" mode="and">
+      <tag k="waterway" match_id="_waterway" v="(.*)"/>
+      <tag k="location" v="underground"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="waterway" from_match="_waterway" v="{1}:disabled"/>
+    </output>
+  </translation>
 </translations>

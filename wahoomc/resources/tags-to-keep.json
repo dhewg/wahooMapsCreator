@@ -69,6 +69,9 @@
             "park",
             "nature_reserve"
         ],
+        "location": [
+            "underground"
+        ],
         "railway": [
             "rail",
             "tram",
