@@ -11,10 +11,18 @@
             "taxiway"
         ],
         "amenity": [
+            "bicycle_repair_station",
+            "biergarten",
             "cafe",
             "drinking_water",
+            "fast_food",
+            "ferry_terminal",
             "fuel",
-            "hospital"
+            "hospital",
+            "ice_cream",
+            "shelter",
+            "toilets",
+            "water_point"
         ],
         "place": [
             "square"
@@ -51,8 +59,10 @@
         ],
         "man_made": [
             "cutline",
+            "drinking_fountain",
             "pier"
         ],
+        "mountain_pass": "",
         "natural": [
             "nosea",
             "sea",
@@ -81,6 +91,7 @@
             "garden",
             "golf_course",
             "grass",
+            "picnic_table",
             "pitch",
             "playground",
             "sports_centre"
@@ -96,6 +107,11 @@
             "tram"
         ],
         "surface": "",
+        "tourism": [
+            "picnic_site",
+            "wilderness_hut",
+            "alpine_hut"
+        ],
         "tracktype": "",
         "tunnel": "",
         "waterway": [
@@ -110,6 +126,8 @@
             "nature_reserve"
         ],
         "natural": [
+            "peak",
+            "volcano",
             "water"
         ],
         "place": [
@@ -124,6 +142,9 @@
         ],
         "route": [
             "ferry"
+        ],
+        "shop": [
+            "supermarket"
         ],
         "waterway": [
             "canal",

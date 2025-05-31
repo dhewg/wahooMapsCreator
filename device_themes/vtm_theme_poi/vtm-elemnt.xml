@@ -867,29 +867,173 @@
     </m>
     <!-- endregion place captions -->
     <!-- POI's / Symbols -->
-    <m zoom-min="14">
-        <m k="amenity">
-            <m v="cafe">
-                <symbol src="icons/cafe.svg" symbol-percent="150"/>
+    <!--
+    https://github.com/mapsforge/vtm/blob/master/docs/Rendertheme.md
+
+    Zoom level   Scale
+             9   20km
+            10   10km
+            11   5km
+            12   2km
+            13   1km
+            14   500m
+            15   200m
+            16   100m
+    -->
+    <m k="bic_poi" v="peak" zoom-min="12">
+        <caption k="name" dy="14" style="bold" fill="#000000" priority="5" size="14" stroke="#ffffff" stroke-width="3.0"/>
+        <caption k="ele" dy="-14" style="bold" fill="#000000" priority="5" size="14" stroke="#ffffff" stroke-width="3.0"/>
+    </m>
+    <m zoom-min="10" zoom-max="10">
+        <m k="bic_poi">
+            <m v="ferry_terminal">
+                <symbol src="icons/ferry.svg" symbol-percent="90"/>
             </m>
-            <m v="drinking_water">
-                <symbol src="icons/drinkingtap.svg" symbol-percent="150"/>
+            <m v="shelter">
+                <symbol src="icons/shelter.svg" symbol-percent="90"/>
             </m>
-            <m v="fuel">
-                <symbol src="icons/fuel.svg" symbol-percent="150"/>
+            <m v="train_station">
+                <symbol src="icons/train_station.svg" symbol-percent="90"/>
             </m>
         </m>
-        <m k="shop">
+    </m>
+    <m zoom-min="11" zoom-max="13">
+        <m k="bic_poi">
+            <m v="ferry_terminal">
+                <symbol src="icons/ferry.svg" symbol-percent="100"/>
+            </m>
+            <m v="shelter">
+                <symbol src="icons/shelter.svg" symbol-percent="100"/>
+            </m>
+            <m v="train_station">
+                <symbol src="icons/train_station.svg" symbol-percent="100"/>
+            </m>
+        </m>
+    </m>
+    <m zoom-min="12" zoom-max="13">
+        <m k="bic_poi">
+            <m v="cemetery">
+                <symbol src="icons/cemetery.svg" symbol-percent="100"/>
+            </m>
+            <m v="fuel">
+                <symbol src="icons/fuel.svg" symbol-percent="100"/>
+            </m>
+            <m v="picnic_table">
+                <symbol src="icons/picnic_table.svg" symbol-percent="100"/>
+            </m>
+        </m>
+        <m k="mountain_pass" v="yes">
+            <symbol src="icons/mountain_pass.svg" symbol-percent="100"/>
+        </m>
+    </m>
+    <m zoom-min="14" zoom-max="14">
+        <m k="bic_poi">
+            <m v="bakery">
+                <symbol src="icons/bakery.svg" symbol-percent="115"/>
+            </m>
+            <m v="bicycle">
+                <symbol src="icons/bicycle.svg" symbol-percent="115"/>
+            </m>
+            <m v="biergarten">
+                <symbol src="icons/biergarten.svg" symbol-percent="115"/>
+            </m>
+            <m v="bicycle_repair_station">
+                <symbol src="icons/bicycle_repair_station.svg" symbol-percent="115"/>
+            </m>
+            <m v="cemetery">
+                <symbol src="icons/cemetery.svg" symbol-percent="115"/>
+            </m>
+            <m v="drinking_water">
+                <symbol src="icons/drinking_water.svg" symbol-percent="115"/>
+            </m>
+            <m v="fast_food">
+                <symbol src="icons/fast_food.svg" symbol-percent="115"/>
+            </m>
+            <m v="ferry_terminal">
+                <symbol src="icons/ferry.svg" symbol-percent="115"/>
+            </m>
+            <m v="fuel">
+                <symbol src="icons/fuel.svg" symbol-percent="115"/>
+            </m>
+            <m v="ice_cream">
+                <symbol src="icons/ice_cream.svg" symbol-percent="115"/>
+            </m>
+            <m v="picnic_table">
+                <symbol src="icons/picnic_table.svg" symbol-percent="115"/>
+            </m>
+            <m v="shelter">
+                <symbol src="icons/shelter.svg" symbol-percent="115"/>
+                <caption dy="-18" style="bold" fill="#000000" k="name" priority="4" size="14" stroke="#ffffff" stroke-width="3.0"/>
+            </m>
+            <m v="supermarket">
+                <symbol src="icons/supermarket.svg" symbol-percent="115"/>
+                <caption dy="-18" style="bold" fill="#000000" k="name" priority="5" size="14" stroke="#ffffff" stroke-width="3.0"/>
+            </m>
+            <m v="toilets">
+                <symbol src="icons/toilets.svg" symbol-percent="115"/>
+            </m>
+            <m v="train_station">
+                <symbol src="icons/train_station.svg" symbol-percent="115"/>
+            </m>
+        </m>
+        <m k="mountain_pass" v="yes">
+            <symbol src="icons/mountain_pass.svg" symbol-percent="115"/>
+        </m>
+    </m>
+    <m zoom-min="15">
+        <m k="bic_poi">
             <m v="bakery">
                 <symbol src="icons/bakery.svg" symbol-percent="150"/>
             </m>
             <m v="bicycle">
-                <symbol src="icons/bike.svg" symbol-percent="150"/>
+                <symbol src="icons/bicycle.svg" symbol-percent="150"/>
+            </m>
+            <m v="biergarten">
+                <symbol src="icons/biergarten.svg" symbol-percent="150"/>
+            </m>
+            <m v="bicycle_repair_station">
+                <symbol src="icons/bicycle_repair_station.svg" symbol-percent="150"/>
+            </m>
+            <m v="cemetery">
+                <symbol src="icons/cemetery.svg" symbol-percent="150"/>
+            </m>
+            <m v="drinking_water">
+                <symbol src="icons/drinking_water.svg" symbol-percent="150"/>
+            </m>
+            <m v="fast_food">
+                <symbol src="icons/fast_food.svg" symbol-percent="150"/>
+            </m>
+            <m v="ferry_terminal">
+                <symbol src="icons/ferry.svg" symbol-percent="150"/>
+            </m>
+            <m v="fuel">
+                <symbol src="icons/fuel.svg" symbol-percent="150"/>
+            </m>
+            <m v="ice_cream">
+                <symbol src="icons/ice_cream.svg" symbol-percent="150"/>
+            </m>
+            <m v="picnic_table">
+                <symbol src="icons/picnic_table.svg" symbol-percent="150"/>
+            </m>
+            <m v="shelter">
+                <symbol src="icons/shelter.svg" symbol-percent="150"/>
+                <caption dy="-22" style="bold" fill="#000000" k="name" priority="4" size="16" stroke="#ffffff" stroke-width="3.0"/>
+            </m>
+            <m v="supermarket">
+                <symbol src="icons/supermarket.svg" symbol-percent="150"/>
+                <caption dy="-22" style="bold" fill="#000000" k="name" priority="5" size="16" stroke="#ffffff" stroke-width="3.0"/>
+            </m>
+            <m v="toilets">
+                <symbol src="icons/toilets.svg" symbol-percent="150"/>
+            </m>
+            <m v="train_station">
+                <symbol src="icons/train_station.svg" symbol-percent="150"/>
             </m>
         </m>
-    </m>
-    <m k="railway" v="station|halt" zoom-min="13">
-        <symbol src="icons/train_station.svg" symbol-percent="130"/>
+        <m k="mountain_pass" v="yes">
+            <symbol src="icons/mountain_pass.svg" symbol-percent="150"/>
+            <caption k="ele" font-style="bold" position="below" font-size="10" fill="#000000"/>
+        </m>
     </m>
     <!-- Endregion POI's / Symbols -->
 </rendertheme>

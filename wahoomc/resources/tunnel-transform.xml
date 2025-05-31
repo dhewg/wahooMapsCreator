@@ -67,4 +67,248 @@
       <tag k="bic_scale:up" from_match="_scale" v="⬆S{1}{2}"/>
     </output>
   </translation>
+
+  <translation>
+    <name>Tag mountain peaks with a name and elevation</name>
+    <match type="any" mode="and">
+      <tag k="natural" v="peak|volcano"/>
+      <tag k="name" v=".*"/>
+      <tag k="ele" v="\d{3,}"/>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="peak"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public railway stations</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <tag k="railway" v="station|halt"/>
+      <notag k="disused:railway" v="station|halt"/>
+      <match mode="or">
+        <notag k="usage" v=".*"/>
+        <tag k="usage" v="main|branch"/>
+      </match>
+      <match mode="or">
+        <notag k="station" v=".*"/>
+        <tag k="station" v="train"/>
+      </match>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="train_station"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public ferry terminals</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <tag k="amenity" v="ferry_terminal"/>
+      <match mode="or">
+        <notag k="bicycle" v=".*"/>
+        <notag k="bicycle" v="no"/>
+      </match>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="ferry_terminal"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public amenity POIs</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <tag k="amenity" match_id="_kind" v="(bicycle_repair_station|biergarten|fast_food|toilets)"/>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" from_match="_kind" v="{1}"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public shop POIs</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <tag k="shop" match_id="_kind" v="(bakery|bicycle|supermarket)"/>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" from_match="_kind" v="{1}"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public drinking water spots</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <match mode="or">
+        <tag k="amenity" v="drinking_water"/>
+        <tag k="amenity" v="water_point"/>
+        <tag k="man_made" v="drinking_fountain"/>
+      </match>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="drinking_water"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public cemeteries with a chance of a watertap</name>
+    <match type="any" mode="and">
+      <tag k="landuse" v="cemetery"/>
+      <notag k="access" v="private|permissive"/>
+      <notag k="cemetery" v=".*"/>
+      <match mode="or">
+        <notag k="religion" v=".*"/>
+        <tag k="religion" v="christian|none|no|multifaith|all"/>
+      </match>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="cemetery"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public non-self-service fuel stops</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <tag k="amenity" v="fuel"/>
+      <match mode="or">
+        <notag k="self_service" v=".*"/>
+        <tag k="self_service" v="no"/>
+      </match>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="fuel"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public ice cream shops</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <match mode="or">
+        <tag k="amenity" v="ice_cream"/>
+        <tag k="shop" v="ice_cream"/>
+        <match mode="and">
+          <tag k="amenity" v="cafe"/>
+          <tag k="cuisine" v="ice_cream"/>
+        </match>
+      </match>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="ice_cream"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public picnic tables</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <match mode="or">
+        <tag k="leisure" v="picnic_table"/>
+        <tag k="tourism" v="picnic_site"/>
+      </match>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="picnic_table"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag public shelters</name>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <match mode="and">
+        <match mode="or">
+          <match mode="and">
+            <tag k="amenity" v="shelter"/>
+            <tag k="shelter_type" v="gazebo|basic_hut|lean_to|picnic_shelter|weather_shelter"/>
+          </match>
+          <tag k="tourism" v="alpine_hut|wilderness_hut"/>
+        </match>
+        <notag k="locked" v="yes"/>
+      </match>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_poi" v="shelter"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Drop names of non-brand supermarkets</name>
+    <match type="any" mode="and">
+      <tag k="shop" v="supermarket"/>
+      <tag k="name" v=".*"/>
+      <notag k="brand" v=".*"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+      <tag k="shop" v="supermarket"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Shorten names of public supermarkets</name>
+    <description>Use the first word of the brand as name</description>
+    <match type="any" mode="and">
+      <notag k="access" v="private|permissive"/>
+      <tag k="shop" v="supermarket"/>
+      <tag k="brand" match_id="_name" v="(\w+['s]*).*"/>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="name" from_match="_name" v="{1}"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Drop all unused names hardcoded by mapsforge-map-writer</name>
+    <match type="any" mode="and">
+      <tag k="name" v=".*"/>
+      <match mode="and">
+        <notag k="bic_poi" v="peak|shelter|supermarket"/>
+        <notag k="natural" v="water"/>
+        <notag k="place" v="locality|hamlet|suburb|village|island|town|city|country"/>
+        <notag k="route" v="ferry"/>
+        <notag k="waterway" v="river|canal"/>
+      </match>
+    </match>
+    <output>
+      <copy-unmatched/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Drop all unused refs hardcoded by mapsforge-map-writer</name>
+    <match type="any" mode="and">
+      <tag k="ref" v=".*"/>
+      <notag k="highway" v="primary|motorway"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Drop all stuff hardcoded by mapsforge-map-writer</name>
+    <match type="any" mode="or">
+      <tag k="piste:name" v=".*"/>
+      <tag k="addr:housenumber" v=".*"/>
+    </match>
+    <output>
+      <copy-unmatched/>
+    </output>
+  </translation>
 </translations>

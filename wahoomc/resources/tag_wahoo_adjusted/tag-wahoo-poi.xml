@@ -4,25 +4,51 @@
 
   <!-- ************* POIS *************** -->
   <pois>
-    <osm-tag key="amenity" value="cafe" zoom-appear="14" />
-    <osm-tag key="amenity" value="drinking_water" zoom-appear="14" />
-    <osm-tag key="amenity" value="fuel" zoom-appear="14" />
-    <osm-tag key="shop" value="bakery" zoom-appear="14" />
-    <osm-tag key="shop" value="bicycle" zoom-appear="14" />
+    <osm-tag key="mountain_pass" value="yes" zoom-appear="12" />
 
-    <osm-tag key="railway" value="station" zoom-appear="13" />
-    <osm-tag key="railway" value="halt" zoom-appear="13" />
+    <osm-tag key="bic_poi" value="ferry_terminal" zoom-appear="10" />
+    <osm-tag key="bic_poi" value="shelter" zoom-appear="10" />
+    <osm-tag key="bic_poi" value="train_station" zoom-appear="10" />
+
+    <osm-tag key="bic_poi" value="picnic_table" zoom-appear="11" />
+
+    <osm-tag key="bic_poi" value="cemetery" zoom-appear="12" />
+    <osm-tag key="bic_poi" value="fuel" zoom-appear="12" />
+    <osm-tag key="bic_poi" value="peak" zoom-appear="12" />
+
+    <osm-tag key="bic_poi" value="bakery" zoom-appear="14" />
+    <osm-tag key="bic_poi" value="bicycle" zoom-appear="14" />
+    <osm-tag key="bic_poi" value="bicycle_repair_station" zoom-appear="14" />
+    <osm-tag key="bic_poi" value="biergarten" zoom-appear="14" />
+    <osm-tag key="bic_poi" value="drinking_water" zoom-appear="14" />
+    <osm-tag key="bic_poi" value="fast_food" zoom-appear="14" />
+    <osm-tag key="bic_poi" value="ice_cream" zoom-appear="14" />
+    <osm-tag key="bic_poi" value="supermarket" zoom-appear="14" />
+    <osm-tag key="bic_poi" value="toilets" zoom-appear="14" />
   </pois>
 
   <ways>
-    <osm-tag key="amenity" label-position="true" value="cafe" zoom-appear="14" />
-    <osm-tag key="amenity" label-position="true" value="drinking_water" zoom-appear="14" />
-    <osm-tag key="amenity" label-position="true" value="fuel" zoom-appear="14" />
-    <osm-tag key="shop" label-position="true" value="bakery" zoom-appear="14" />
-    <osm-tag key="shop" label-position="true" value="bicycle" zoom-appear="14" />
+    <osm-tag key="mountain_pass" label-position="true" value="yes" zoom-appear="12" />
 
-    <osm-tag key="railway" label-position="true" value="station" zoom-appear="13" />
-    <osm-tag key="railway" label-position="true" value="halt" zoom-appear="13" />
+    <osm-tag key="bic_poi" label-position="true" value="ferry_terminal" zoom-appear="10" />
+    <osm-tag key="bic_poi" label-position="true" value="shelter" zoom-appear="10" />
+    <osm-tag key="bic_poi" label-position="true" value="train_station" zoom-appear="10" />
+
+    <osm-tag key="bic_poi" label-position="true" value="picnic_table" zoom-appear="11" />
+
+    <osm-tag key="bic_poi" label-position="true" value="cemetery" zoom-appear="12" />
+    <osm-tag key="bic_poi" label-position="true" value="fuel" zoom-appear="12" />
+    <osm-tag key="bic_poi" label-position="true" value="peak" zoom-appear="12" />
+
+    <osm-tag key="bic_poi" label-position="true" value="bakery" zoom-appear="14" />
+    <osm-tag key="bic_poi" label-position="true" value="bicycle" zoom-appear="14" />
+    <osm-tag key="bic_poi" label-position="true" value="bicycle_repair_station" zoom-appear="14" />
+    <osm-tag key="bic_poi" label-position="true" value="biergarten" zoom-appear="14" />
+    <osm-tag key="bic_poi" label-position="true" value="drinking_water" zoom-appear="14" />
+    <osm-tag key="bic_poi" label-position="true" value="fast_food" zoom-appear="14" />
+    <osm-tag key="bic_poi" label-position="true" value="ice_cream" zoom-appear="14" />
+    <osm-tag key="bic_poi" label-position="true" value="supermarket" zoom-appear="14" />
+    <osm-tag key="bic_poi" label-position="true" value="toilets" zoom-appear="14" />
   </ways>
 
   <ways>
