@@ -741,7 +741,7 @@
                 </m>
                 <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="4"/>
-                    <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="4"/>
+                    <line cat="roam" outline="bridge" cap="butt" stroke="#FF0000" width="4"/>
                     <line cat="bolt2" outline="bridge" cap="butt" stroke="#BB0000" width="4"/>
                     <line cat="roam2" outline="bridge" cap="butt" stroke="#BB0000" width="4"/>
                 </m>
