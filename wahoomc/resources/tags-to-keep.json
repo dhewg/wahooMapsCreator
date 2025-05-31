@@ -101,6 +101,7 @@
         "place": [
             "city",
             "country",
+            "hamlet",
             "island",
             "locality",
             "suburb",

@@ -84,6 +84,7 @@
   <pois>
     <osm-tag key="place" value="city" zoom-appear="9" />
     <osm-tag key="place" value="country" zoom-appear="9" />
+    <osm-tag key="place" value="hamlet" zoom-appear="13" />
     <osm-tag key="place" value="island" zoom-appear="10" />
     <osm-tag key="place" value="locality" zoom-appear="13" />
     <osm-tag key="place" value="suburb" zoom-appear="13" />
