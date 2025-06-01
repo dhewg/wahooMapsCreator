@@ -520,10 +520,6 @@
                             <line use="roam2-trail" outline="roam2-bikepath"/>
                         </m>
                     </m>
-                    <m k="bicycle" v="bic_yes|bic_designated">
-                        <!-- specifically for cycle -->
-                        <line stroke="#FF0000" width="1.0" dasharray="12,6" cap="butt"/>
-                    </m>
                     <m k="surface" v="bic_paved">
                         <line use="bolt-track-paved"/>
                         <line use="roam-track-paved"/>
