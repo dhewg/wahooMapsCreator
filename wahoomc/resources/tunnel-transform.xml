@@ -43,4 +43,28 @@
       <tag k="waterway" from_match="_waterway" v="{1}:disabled"/>
     </output>
   </translation>
+
+  <translation>
+    <name>Tag MTB down scale</name>
+    <match type="way" mode="and">
+      <tag k="highway" v="path|track"/>
+      <tag k="mtb:scale" match_id="_scale" v="^S?(1|2|3|4|5|6)(\-||\+)"/>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_scale" from_match="_scale" v="⬇S{1}{2}"/>
+    </output>
+  </translation>
+
+  <translation>
+    <name>Tag MTB up scale</name>
+    <match type="way" mode="and">
+      <tag k="highway" v="path|track"/>
+      <tag k="mtb:scale:uphill" match_id="_scale" v="^S?(1|2|3|4|5|6)(\-||\+)"/>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="bic_scale:up" from_match="_scale" v="⬆S{1}{2}"/>
+    </output>
+  </translation>
 </translations>

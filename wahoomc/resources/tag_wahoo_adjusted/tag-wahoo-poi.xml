@@ -80,6 +80,12 @@
     <osm-tag key="ele" value="4900" zoom-appear="14"/>
     <osm-tag key="ele" value="5000" zoom-appear="14"/>
   </ways>
+
+  <ways>
+    <osm-tag key="bic_scale" value="%s" renderable="false"/>
+    <osm-tag key="bic_scale:up" value="%s" renderable="false"/>
+  </ways>
+
   <!-- PLACES TAGS -->
   <pois>
     <osm-tag key="place" value="city" zoom-appear="9" />

@@ -828,6 +828,10 @@
     </m>
     <!-- endregion railway (no tunnel) -->
     <m e="way">
+        <m v="path|track" zoom-min="14">
+            <pathText fill="#FFFFFF" k="bic_scale" font-family="sans_serif" font-style="bold" priority="10" size="16" stroke="#000000" stroke-width="4.0" />
+            <pathText fill="#FFFFFF" k="bic_scale:up" font-family="sans_serif" font-style="bold" priority="10" size="16" stroke="#000000" stroke-width="4.0" />
+        </m>
         <m k="highway" v="primary|motorway">
             <pathText fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
         </m>
