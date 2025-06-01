@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rendertheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opensciencemap.org/rendertheme" map-background="#FFFFFF" version="1" xsi:schemaLocation="http://opensciencemap.org/rendertheme https://raw.githubusercontent.com/mapsforge/vtm/master/resources/rendertheme.xsd">
     <stylemenu id="stylemenu" defaultvalue="BOLT_2" defaultlang="en">
-        <layer id="BOLT" visible="true">
+        <layer id="BOLT_2" visible="true">
             <name lang="en" value="Bolt"/>
             <cat id="col1"/>
             <cat id="trails-osm"/>
@@ -11,7 +11,7 @@
             <cat id="col8"/>
             <cat id="trails-osm"/>
         </layer>
-        <layer id="BOLT_2" visible="true">
+        <layer id="BOLT_2x" visible="true">
             <name lang="en" value="Bolt2"/>
             <cat id="col64"/>
             <cat id="trails-osm"/>
