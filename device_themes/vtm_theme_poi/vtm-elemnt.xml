@@ -167,6 +167,10 @@
         <area cat="roam" fill="#00FFFF"/>
         <area cat="bolt2" fill="#00AAFF"/>
         <area cat="roam2" fill="#00AAFF"/>
+        <caption cat="bolt" area-size="0.2" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
+        <caption cat="roam" area-size="0.2" fill="#0000FF" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
+        <caption cat="bolt2" area-size="0.2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
+        <caption cat="roam2" area-size="0.2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
     </m>
     <m e="way" k="waterway" v="river|canal">
         <line cat="bolt" fix="true" width="1" dasharray="2,2"/>
