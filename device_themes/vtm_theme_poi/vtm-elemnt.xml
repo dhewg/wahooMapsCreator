@@ -33,11 +33,6 @@
     <style-line id="roam-steps" cat="roam" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
     <style-line id="bolt2-steps" cat="bolt2" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
     <style-line id="roam2-steps" cat="roam2" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
-    <!-- Cycle Trails (like MTB) -->
-    <style-line id="bolt-trail" cat="bolt" stroke="#000000" width="1.0"/>
-    <style-line id="roam-trail" cat="roam" stroke="#0000FF" width="1.0"/>
-    <style-line id="bolt2-trail" cat="bolt2" stroke="#FF0000" width="1.5"/>
-    <style-line id="roam2-trail" cat="roam2" stroke="#FF0000" width="1.5"/>
     <!-- Paved Tracks -->
     <style-line id="bolt-track-paved" cat="bolt" stroke="#000000" width="1.0"/>
     <style-line id="bolt-track-paved-cycle" use="bolt-track-paved"/>
@@ -440,10 +435,10 @@
                     <m k="bicycle" v="bic_yes|bic_designated">
                         <!-- specifically for cycle -->
                         <m k="surface" v="bic_paved">
-                            <line use="bolt-trail"/>
-                            <line use="roam-trail" outline="roam-bikepath"/>
-                            <line use="bolt2-trail" outline="bolt2-bikepath"/>
-                            <line use="roam2-trail" outline="roam2-bikepath"/>
+                            <line use="bolt-track-paved-cycle"/>
+                            <line use="roam-track-paved-cycle" outline="roam-bikepath"/>
+                            <line use="bolt2-track-paved-cycle" outline="bolt2-bikepath"/>
+                            <line use="roam2-track-paved-cycle" outline="roam2-bikepath"/>
                         </m>
                     </m>
                     <m k="surface" v="bic_paved">
@@ -478,10 +473,10 @@
                     <m k="bicycle" v="bic_yes|bic_designated">
                         <!-- specifically for cycle -->
                         <m k="surface" v="bic_paved">
-                            <line use="bolt-trail"/>
-                            <line use="roam-trail" outline="roam-bikepath"/>
-                            <line use="bolt2-trail" outline="bolt2-bikepath"/>
-                            <line use="roam2-trail" outline="roam2-bikepath"/>
+                            <line use="bolt-track-paved-cycle"/>
+                            <line use="roam-track-paved-cycle" outline="roam-bikepath"/>
+                            <line use="bolt2-track-paved-cycle" outline="bolt2-bikepath"/>
+                            <line use="roam2-track-paved-cycle" outline="roam2-bikepath"/>
                         </m>
                     </m>
                     <m k="tracktype" v="grade1">
