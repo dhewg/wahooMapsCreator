@@ -821,6 +821,11 @@
         </m>
     </m>
     <!-- endregion railway (no tunnel) -->
+    <m e="way">
+        <m k="highway" v="primary|motorway">
+            <pathText fill="#000000" k="ref" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#ffffff" stroke-width="4.0" />
+        </m>
+    </m>
     <!-- region place captions -->
     <m k="place">
         <m v="locality" zoom-min="15">
