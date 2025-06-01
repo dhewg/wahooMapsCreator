@@ -200,8 +200,7 @@
         <area cat="bolt2" fill="#00AAFF"/>
         <area cat="roam2" fill="#00AAFF"/>
     </m>
-    <!-- region military -->
-    <m e="way" k="landuse" v="military" zoom-min="10">
+    <m e="way" k="landuse" v="military" closed="yes" zoom-min="10">
         <line cat="bolt" width="1" stroke="#000000"/>
         <area cat="bolt" src="patterns/military_bw.svg" symbol-height="32"/>
         <line cat="roam" width="1" stroke="#FF0000"/>
@@ -211,19 +210,6 @@
         <line cat="roam2" width="1" stroke="#FF5555"/>
         <area cat="roam2" src="patterns/military.svg" symbol-height="32"/>
     </m>
-    <m e="way" k="area" v="yes" zoom-min="10">
-        <m e="way" k="landuse" v="military" zoom-min="10">
-            <line cat="bolt" width="1" stroke="#000000"/>
-            <area cat="bolt" src="patterns/military_bw.svg" symbol-height="32"/>
-            <line cat="roam" width="1" stroke="#FF0000"/>
-            <area cat="roam" src="patterns/military.svg" symbol-height="32"/>
-            <line cat="bolt2" width="1" stroke="#FF5555"/>
-            <area cat="bolt2" src="patterns/military.svg" symbol-height="32"/>
-            <line cat="roam2" width="1" stroke="#FF5555"/>
-            <area cat="roam2" src="patterns/military.svg" symbol-height="32"/>
-        </m>
-    </m>
-    <!-- endregion military -->
     <m k="amenity" v="hospital">
         <area cat="roam" fill="#FF0000"/>
         <area cat="bolt2" fill="#FFAAFF"/>
