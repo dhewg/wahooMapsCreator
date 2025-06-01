@@ -148,6 +148,7 @@
         <area cat="roam2" fill="#FFAAAA"/>
     </m>
     <m e="way" k="natural" v="wetland">
+        <area cat="roam" src="patterns/wetland.png"/>
         <area cat="bolt2" src="patterns/wetland.png"/>
         <area cat="roam2" src="patterns/wetland.png"/>
     </m>
