@@ -195,8 +195,7 @@
     <osm-tag key="tracktype" value="grade4" renderable="false"/>
     <osm-tag key="tracktype" value="grade5" renderable="false"/>
 
-    <osm-tag key="surface" value="bic_paved" equivalent-values="paved,asphalt,concrete" renderable="false" />
-    <osm-tag key="surface" value="bic_unpaved" equivalent-values="raw,gravel,rock,pebblestone,ground,dirt,earth,mud" renderable="false" />
+    <osm-tag key="surface" value="bic_paved" equivalent-values="paved,asphalt,chipseal,concrete,concrete:lanes,concrete:plates,paving_stones,paving_stones:lanes" renderable="false" />
 
     <osm-tag key="tunnel" value="yes" renderable="false"/>
     <osm-tag key="tunnel" value="no" renderable="false"/>

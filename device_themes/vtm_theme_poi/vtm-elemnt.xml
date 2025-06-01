@@ -418,17 +418,17 @@
                 </m>
                 <m cat="trails-osm" e="way" k="highway" v="cycleway" zoom-min="12" select="first">
                     <!-- cycleways can be paved or raw -->
-                    <m k="surface" v="bic_unpaved">
-                        <line use="bolt-track-raw-cycle"/>
-                        <line use="roam-track-raw-cycle"/>
-                        <line use="bolt2-track-raw-cycle"/>
-                        <line use="roam2-track-raw-cycle"/>
-                    </m>
-                    <m k="highway" v="cycleway">
+                    <m k="surface" v="bic_paved">
                         <line use="bolt-cycle"/>
                         <line use="roam-cycle" outline="roam-bikepath"/>
                         <line use="bolt2-cycle" outline="bolt2-bikepath"/>
                         <line use="roam2-cycle" outline="roam2-bikepath"/>
+                    </m>
+                    <m>
+                        <line use="bolt-track-raw-cycle"/>
+                        <line use="roam-track-raw-cycle"/>
+                        <line use="bolt2-track-raw-cycle"/>
+                        <line use="roam2-track-raw-cycle"/>
                     </m>
                 </m>
                 <m e="way" k="highway" v="path" zoom-min="12" select="first">
