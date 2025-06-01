@@ -462,14 +462,7 @@
                         <line use="roam2-footpath"/>
                     </m>
                 </m>
-                <m e="way" k="highway" v="track|byway|path" zoom-min="12" zoom-max="12">
-                    <m k="tracktype" v="grade1">
-                        <line cat="roam" stroke="#000000" width="2" cap="round"/>
-                        <line cat="bolt2" stroke="#AAAAAA" width="2" cap="round"/>
-                        <line cat="roam2" stroke="#AAAAAA" width="2" cap="round"/>
-                    </m>
-                </m>
-                <m e="way" k="highway" v="track|byway" zoom-min="13" select="first">
+                <m e="way" k="highway" v="track|byway" zoom-min="12" select="first">
                     <m k="bicycle" v="bic_yes|bic_designated">
                         <!-- specifically for cycle -->
                         <m k="surface" v="bic_paved">
@@ -494,12 +487,7 @@
                             <line use="roam2-track-paved"/>
                         </m>
                     </m>
-                    <m k="tracktype" v="grade2|grade3" zoom-min="12" zoom-max="13">
-                        <line cat="roam" stroke="#000000" width="1.2" dasharray="15,5" cap="round"/>
-                        <line cat="bolt2" stroke="#AAAAAA" width="1.2" dasharray="15,5" cap="round"/>
-                        <line cat="roam2" stroke="#AAAAAA" width="1.2" dasharray="15,5" cap="round"/>
-                    </m>
-                    <m zoom-min="14">
+                    <m zoom-min="12">
                         <m k="tracktype" v="grade2">
                             <!-- Solid but unpaved. Usually an unpaved track with surface of gravel. -->
                             <m k="bicycle" v="bic_yes|bic_designated">
