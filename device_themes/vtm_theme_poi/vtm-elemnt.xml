@@ -622,15 +622,15 @@
                     <line cat="bolt2" stroke="#BBBBBB" outline="bolt2-major-roads" width="1.5"/>
                     <line cat="roam2" stroke="#BBBBBB" outline="roam2-major-roads" width="1.5"/>
                 </m>
-                <m e="way" k="highway" v="residential|living_street|road" zoom-min="10" zoom-max="13">
-                    <line cat="bolt" stroke="#FFFFFF" outline="bolt-major-roads" width="1.5"/>
-                    <line cat="roam" stroke="#FFFFFF" outline="roam-major-roads" width="1.5"/>
+                <m e="way" k="highway" v="residential|living_street" zoom-min="12" zoom-max="13">
+                    <line cat="bolt" stroke="#000000" width="1.5"/>
+                    <line cat="roam" stroke="#000000" width="1.5"/>
                     <line cat="bolt2" stroke="#BBBBBB" outline="bolt2-major-roads" width="1.5"/>
                     <line cat="roam2" stroke="#BBBBBB" outline="roam2-major-roads" width="1.5"/>
                 </m>
                 <m e="way" k="highway" v="road|unclassified" zoom-min="10" zoom-max="13">
-                    <line cat="bolt" stroke="#FFFFFF" outline="bolt-major-roads" width="2"/>
-                    <line cat="roam" stroke="#FFFFFF" outline="roam-major-roads" width="2"/>
+                    <line cat="bolt" stroke="#000000" width="1.5"/>
+                    <line cat="roam" stroke="#000000" width="1.5"/>
                     <line cat="bolt2" stroke="#BBBBBB" outline="bolt2-major-roads" width="2"/>
                     <line cat="roam2" stroke="#BBBBBB" outline="roam2-major-roads" width="2"/>
                 </m>
