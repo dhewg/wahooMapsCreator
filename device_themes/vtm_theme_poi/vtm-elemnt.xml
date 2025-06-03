@@ -157,6 +157,7 @@
         <area cat="roam2" fill="#FFFF00"/>
     </m>
     <m e="way" k="man_made" v="cutline" zoom-min="15">
+        <line cat="bolt" width="1" stroke="#000000" dasharray="5,5"/>
         <line cat="roam" width="1" stroke="#FFFF00" dasharray="5,5"/>
         <line cat="bolt2" width="1" stroke="#AAAA55"/>
         <line cat="roam2" width="1" stroke="#AAAA55"/>
