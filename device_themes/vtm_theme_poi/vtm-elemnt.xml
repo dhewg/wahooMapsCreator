@@ -221,19 +221,17 @@
         <area cat="bolt2" fill="#FFFFFF"/>
         <area cat="roam2" fill="#FFFFFF"/>
     </m>
-    <m e="way" k="man_made" v="pier" zoom-min="12">
-        <line cat="bolt" width="1" stroke="#000000"/>
-        <line cat="roam" width="1" stroke="#FFFF00"/>
-        <line cat="bolt2" width="1" stroke="#FFFFAA"/>
-        <line cat="roam2" width="1" stroke="#FFFFAA"/>
+    <m e="way" k="man_made" v="pier" zoom-min="12" closed="no">
+        <line cat="bolt" width="0.5" stroke="#000000" cap="butt"/>
+        <line cat="roam" width="0.5" stroke="#FFFF00" cap="butt"/>
+        <line cat="bolt2" width="0.6" stroke="#FFFFAA" cap="butt"/>
+        <line cat="roam2" width="0.6" stroke="#FFFFAA" cap="butt"/>
     </m>
-    <m e="way" k="area" v="yes" zoom-min="12">
-        <m e="way" k="man_made" v="pier" zoom-min="12">
-            <area cat="bolt" fill="#000000"/>
-            <area cat="roam" fill="#FFFF00"/>
-            <area cat="bolt2" fill="#FFFFAA"/>
-            <area cat="roam2" fill="#FFFFAA"/>
-        </m>
+    <m e="way" k="man_made" v="pier" zoom-min="12" closed="yes">
+        <area cat="bolt" fill="#000000"/>
+        <area cat="roam" fill="#FFFF00"/>
+        <area cat="bolt2" fill="#FFFFAA"/>
+        <area cat="roam2" fill="#FFFFAA"/>
     </m>
     <!-- region aeroway -->
     <m e="way" k="aeroway" v="aerodrome">
