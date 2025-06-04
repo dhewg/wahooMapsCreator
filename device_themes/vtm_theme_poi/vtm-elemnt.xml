@@ -387,7 +387,7 @@
         </m>
         <!-- endregion area:highway=pedestrian -->
         <!-- not an area -->
-        <m e="way" k="area" v="~|no|false">
+        <m e="way" closed="no">
             <!-- region paths & tracks -->
             <m k="access" v="private" zoom-min="16">
                 <m e="way" k="highway" v="path">
