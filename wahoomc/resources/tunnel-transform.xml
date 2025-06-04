@@ -18,4 +18,17 @@
       <tag k="layer" v="0"/>
     </output>
   </translation>
+
+  <translation>
+    <name>Disable private driveways</name>
+    <match type="way" mode="and">
+      <tag k="highway" v="service"/>
+      <tag k="service" v="driveway"/>
+      <tag k="access" v="private"/>
+    </match>
+    <output>
+      <copy-all/>
+      <tag k="highway" v="service:disabled"/>
+    </output>
+  </translation>
 </translations>
