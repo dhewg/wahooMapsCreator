@@ -177,10 +177,10 @@
         <line cat="roam" width="1" stroke="#00FFFF"/>
         <line cat="bolt2" width="1" stroke="#00AAFF"/>
         <line cat="roam2" width="1" stroke="#00AAFF"/>
-        <pathText display="always" cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0" zoom-min="14"/>
-        <pathText display="always" cat="roam" fill="#0000FF" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0" zoom-min="14"/>
-        <pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0" zoom-min="14"/>
-        <pathText display="always" cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0" zoom-min="14"/>
+        <pathText display="always" cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+        <pathText display="always" cat="roam" fill="#0000FF" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+        <pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+        <pathText display="always" cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
     </m>
     <m e="way" k="waterway" v="drain" zoom-min="14">
         <line cat="roam" width="1" stroke="#00FFFF"/>
@@ -365,19 +365,19 @@
         <!-- highway outlines -->
         <outline-layer cat="bolt" id="bolt-highway" stroke="#000000" width="1"/>
         <outline-layer cat="bolt" id="bolt-major-roads" stroke="#000000" width="1.2"/>
-        <outline-layer cat="bolt" id="bolt-minor-roads" stroke="#000000" width="1" zoom-min="12"/>
+        <outline-layer cat="bolt" id="bolt-minor-roads" stroke="#000000" width="1"/>
         <outline-layer cat="roam" id="roam-highway" stroke="#000000" width="1"/>
         <outline-layer cat="roam" id="roam-major-roads" stroke="#000000" width="0.6"/>
-        <outline-layer cat="roam" id="roam-minor-roads" stroke="#000000" width="0.4" zoom-min="12"/>
-        <outline-layer cat="roam" id="roam-bikepath" stroke="#000000" width="0.4" zoom-min="12"/>
+        <outline-layer cat="roam" id="roam-minor-roads" stroke="#000000" width="0.4"/>
+        <outline-layer cat="roam" id="roam-bikepath" stroke="#000000" width="0.4"/>
         <outline-layer cat="bolt2" id="bolt2-highway" stroke="#550000" width="1"/>
         <outline-layer cat="bolt2" id="bolt2-major-roads" stroke="#000000" width="0.6"/>
-        <outline-layer cat="bolt2" id="bolt2-minor-roads" stroke="#000000" width="0.4" zoom-min="12"/>
-        <outline-layer cat="bolt2" id="bolt2-bikepath" stroke="#000000" width="0.4" zoom-min="12"/>
+        <outline-layer cat="bolt2" id="bolt2-minor-roads" stroke="#000000" width="0.4"/>
+        <outline-layer cat="bolt2" id="bolt2-bikepath" stroke="#000000" width="0.4"/>
         <outline-layer cat="roam2" id="roam2-highway" stroke="#550000" width="1"/>
         <outline-layer cat="roam2" id="roam2-major-roads" stroke="#000000" width="0.6"/>
-        <outline-layer cat="roam2" id="roam2-minor-roads" stroke="#000000" width="0.4" zoom-min="12"/>
-        <outline-layer cat="roam2" id="roam2-bikepath" stroke="#000000" width="0.4" zoom-min="12"/>
+        <outline-layer cat="roam2" id="roam2-minor-roads" stroke="#000000" width="0.4"/>
+        <outline-layer cat="roam2" id="roam2-bikepath" stroke="#000000" width="0.4"/>
         <!-- the outline of bridges -->
         <outline-layer id="bridge" stroke="#000000" width="1"/>
         <outline-layer id="bridge_small" stroke="#000000" width="0.6"/>
@@ -663,10 +663,10 @@
                             <line cat="roam2" stroke="#0000AA" width="0.6" dasharray="15,5" cap="butt"/>
                         </m>
                         <m zoom-min="15">
-                            <pathText display="always" cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0" zoom-min="15"/>
-                            <pathText display="always" cat="roam" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0" zoom-min="15"/>
-                            <pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0" zoom-min="15"/>
-                            <pathText display="always" cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0" zoom-min="15"/>
+                            <pathText display="always" cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
+                            <pathText display="always" cat="roam" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
+                            <pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
+                            <pathText display="always" cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
                         </m>
                     </m>
                 </m>
