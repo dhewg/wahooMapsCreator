@@ -177,10 +177,10 @@
         <line cat="roam" width="1" stroke="#00FFFF"/>
         <line cat="bolt2" width="1" stroke="#00AAFF"/>
         <line cat="roam2" width="1" stroke="#00AAFF"/>
-        <pathText display="always" cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
-        <pathText display="always" cat="roam" fill="#0000FF" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
-        <pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
-        <pathText display="always" cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+        <pathText cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+        <pathText cat="roam" fill="#0000FF" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+        <pathText cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+        <pathText cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
     </m>
     <m e="way" k="waterway" v="drain" zoom-min="14">
         <line cat="roam" width="1" stroke="#00FFFF"/>
@@ -663,10 +663,10 @@
                             <line cat="roam2" stroke="#0000AA" width="0.6" dasharray="15,5" cap="butt"/>
                         </m>
                         <m zoom-min="15">
-                            <pathText display="always" cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
-                            <pathText display="always" cat="roam" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
-                            <pathText display="always" cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
-                            <pathText display="always" cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
+                            <pathText cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
+                            <pathText cat="roam" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
+                            <pathText cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
+                            <pathText cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0"/>
                         </m>
                     </m>
                 </m>
