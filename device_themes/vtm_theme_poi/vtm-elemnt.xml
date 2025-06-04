@@ -375,10 +375,14 @@
         <outline-layer id="bridge" stroke="#000000" width="1"/>
         <outline-layer id="bridge_small" stroke="#666666" width="0.6"/>
         <!-- area:highway=pedestrian -->
-        <m e="way" k="area" v="yes">
-            <m e="way" k="highway" v="pedestrian" zoom-min="13" stroke-linecap="butt">
-                <line stroke="#000000" width="0.8"/>
-                <area fill="#FFFFFF"/>
+        <m e="way" k="highway" v="pedestrian" zoom-min="13">
+            <line stroke="#000000" width="0.8" stroke-linecap="butt"/>
+            <m closed="yes">
+                <area fill="#FF00FF"/>
+                <area cat="bolt" fill="#FFFFFF"/>
+                <area cat="roam" fill="#FFFFFF"/>
+                <area cat="bolt2" fill="#AAAAAA"/>
+                <area cat="roam2" fill="#AAAAAA"/>
             </m>
         </m>
         <!-- endregion area:highway=pedestrian -->
