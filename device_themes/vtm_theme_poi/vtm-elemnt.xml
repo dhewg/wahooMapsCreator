@@ -132,7 +132,9 @@
         <area cat="roam" src="patterns/light_green.png"/>
         <area cat="bolt2" fill="#55FF55"/>
         <area cat="roam2" fill="#55FF55"/>
-        <caption fill="#000000" k="name" priority="5" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
+        <m zoom-min="13">
+            <caption fill="#000000" k="name" priority="15" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
+        </m>
     </m>
     <m e="way" k="natural|landcover|landuse" v="wood|trees|scrub|forest">
         <area cat="roam" fill="#00FF00"/>
