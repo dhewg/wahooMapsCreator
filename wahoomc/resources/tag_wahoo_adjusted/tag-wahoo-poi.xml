@@ -189,7 +189,7 @@
     <osm-tag key="route" value="ferry" zoom-appear="12" />
   </ways>
 
-  <!-- TAGS USED STARTING WITH ROAM1 -->
+  <!-- TAGS USED STARTING WITH ROAM1 ->
   <ways>
     <osm-tag key="amenity" value="hospital" zoom-appear="12" />
     <osm-tag key="building" value="yes" zoom-appear="12" />
@@ -210,8 +210,9 @@
 
     <osm-tag key="waterway" value="drain" zoom-appear="14"/>
   </ways>
+  -->
 
-  <!-- TAGS USED STARTING WITH BOLT2/ROAM2 -->
+  <!-- TAGS USED STARTING WITH BOLT2/ROAM2 ->
   <ways>
     <osm-tag key="admin_level" value="2" zoom-appear="3" force-polygon-line="true"/>
 
@@ -222,6 +223,7 @@
     <osm-tag key="landuse" value="cemetery" zoom-appear="12" />
     <osm-tag key="landuse" value="railway" zoom-appear="12" />
   </ways>
+  -->
 
   <!-- NOT TO RENDER -->
   <ways>
