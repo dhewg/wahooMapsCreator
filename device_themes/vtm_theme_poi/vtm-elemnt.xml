@@ -65,8 +65,8 @@
     <style-line id="roam2-track-other" cat="roam2" stroke="#000000" width="1.0" dasharray="5,5"/>
     <style-line id="roam2-track-other-cycle" use="roam2-track-other" stroke="#FF0000"/>
     <!-- Paved Cycleways-->
-    <style-line id="bolt-cycle" cat="bolt" stroke="#000000" width="1.0"/>
-    <style-line id="roam-cycle" cat="roam" stroke="#0000FF" width="1.0"/>
+    <style-line id="bolt-cycle" cat="bolt" stroke="#000000" width="1.5"/>
+    <style-line id="roam-cycle" cat="roam" stroke="#0000FF" width="1.5"/>
     <style-line id="bolt2-cycle" cat="bolt2" stroke="#0000FF" width="1.5"/>
     <style-line id="roam2-cycle" cat="roam2" stroke="#0000FF" width="1.5"/>
     <!-- Elevation / contour lines-->
