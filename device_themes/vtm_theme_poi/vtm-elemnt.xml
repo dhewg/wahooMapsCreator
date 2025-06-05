@@ -377,7 +377,7 @@
         <outline-layer cat="roam2" id="roam2-bikepath" stroke="#000000" width="0.4" zoom-min="12"/>
         <!-- the outline of bridges -->
         <outline-layer id="bridge" stroke="#000000" width="1"/>
-        <outline-layer id="bridge_small" stroke="#666666" width="0.6"/>
+        <outline-layer id="bridge_small" stroke="#000000" width="0.6"/>
         <!-- area:highway=pedestrian -->
         <m e="way" k="highway" v="pedestrian" zoom-min="13">
             <line stroke="#000000" width="0.8" stroke-linecap="butt"/>
