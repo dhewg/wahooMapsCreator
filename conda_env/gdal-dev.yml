@@ -13,7 +13,6 @@ dependencies:
   - lxml=4.9.*
   - matplotlib=3.4.3
   - autopep8=2.0.*
-  - mock
   - twine
   - pip
   - vulture
