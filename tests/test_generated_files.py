@@ -219,7 +219,7 @@ class TestGeneratedFiles(unittest.TestCase):
         else:
             # run processing of input-country via CLI in mapwriter hdd mode
             result = os.system(
-                f'{sys.executable} -m wahoomc cli -co {country} -tag tag-wahoo.xml -fp -c -md 9999 -nbc -hd')
+                f'{sys.executable} -m wahoomc cli -co {country} -tag tag-wahoo.xml -fp -c -md 9999 -nbc -hdd')
 
         # check if run was successful
         self.assertEqual(result, 0)
