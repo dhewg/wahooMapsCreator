@@ -189,6 +189,8 @@
     <osm-tag key="aeroway" value="aerodrome" zoom-appear="10" />
     <osm-tag key="aeroway" value="runway" zoom-appear="10" />
     <osm-tag key="aeroway" value="taxiway" zoom-appear="10" />
+
+    <osm-tag key="landuse" value="cemetery" zoom-appear="12" />
   </ways>
 
   <!-- NOT TO RENDER -->

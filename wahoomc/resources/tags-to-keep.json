@@ -63,6 +63,7 @@
             "wood"
         ],
         "landuse": [
+            "cemetery",
             "commercial",
             "forest",
             "industrial",
