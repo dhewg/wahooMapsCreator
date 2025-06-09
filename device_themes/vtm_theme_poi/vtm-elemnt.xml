@@ -215,6 +215,10 @@
         <line cat="roam2" width="1" stroke="#FF5555"/>
         <area cat="roam2" src="patterns/military.svg" symbol-height="32"/>
     </m>
+    <m e="way" k="landuse" v="railway">
+        <area cat="bolt2" fill="#555555"/>
+        <area cat="roam2" fill="#555555"/>
+    </m>
     <m e="way" k="landuse" v="cemetery">
         <area cat="bolt2" fill="#00AA55"/>
         <area cat="roam2" fill="#00AA55"/>
