@@ -63,15 +63,27 @@
             "wood"
         ],
         "landuse": [
+            "allotments",
             "cemetery",
             "commercial",
+            "grass",
             "forest",
             "industrial",
+            "meadow",
             "military",
             "railway",
+            "recreation_ground",
             "reservoir",
             "residential",
             "retail"
+        ],
+        "leisure": [
+            "garden",
+            "golf_course",
+            "grass",
+            "pitch",
+            "playground",
+            "sports_centre"
         ],
         "location": [
             "underground"

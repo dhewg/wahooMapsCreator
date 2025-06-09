@@ -176,8 +176,11 @@
 
     <osm-tag key="landuse" value="building" equivalent-values="commercial,industrial,residential,retail" zoom-appear="10" />
     <osm-tag key="landuse" value="forest" zoom-appear="8" />
+    <osm-tag key="landuse" value="grass" equivalent-values="allotments,meadow,recreation_ground" zoom-appear="10" />
+    <osm-tag key="leisure" value="grass" equivalent-values="garden,golf_course,playground,sports_centre" zoom-appear="10" />
     <osm-tag key="leisure" label-position="true" value="nature_reserve" zoom-appear="8" />
     <osm-tag key="leisure" label-position="true" value="park" zoom-appear="8" />
+    <osm-tag key="leisure" value="pitch" zoom-appear="13" />
 
     <osm-tag key="waterway" value="drain" zoom-appear="14"/>
   </ways>
