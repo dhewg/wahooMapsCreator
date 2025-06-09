@@ -33,10 +33,7 @@
     <style-line id="bolt2-footpath" cat="bolt2" use="bolt2-footpath-paved" dasharray="9,3" cap="butt"/>
     <style-line id="roam2-footpath" cat="roam2" use="roam2-footpath-paved" dasharray="9,3" cap="butt"/>
     <!-- Steps -->
-    <style-line id="bolt-steps" cat="bolt" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
-    <style-line id="roam-steps" cat="roam" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
-    <style-line id="bolt2-steps" cat="bolt2" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
-    <style-line id="roam2-steps" cat="roam2" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
+    <style-line id="steps" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
     <!-- Paved Tracks -->
     <style-line id="bolt-track-paved" cat="bolt" stroke="#000000" width="1.0"/>
     <style-line id="bolt-track-paved-cycle" use="bolt-track-paved"/>
@@ -123,10 +120,7 @@
         <area cat="roam2" fill="#00FFFF" mesh="true"/>
     </m>
     <m e="way" k="natural" v="nosea">
-        <area cat="roam" fill="#FFFFFF" mesh="true"/>
-        <area cat="bolt" fill="#FFFFFF" mesh="true"/>
-        <area cat="bolt2" fill="#FFFFFF" mesh="true"/>
-        <area cat="roam2" fill="#FFFFFF" mesh="true"/>
+        <area fill="#FFFFFF" mesh="true"/>
     </m>
     <m e="way" k="leisure" v="park|nature_reserve">
         <area cat="roam" src="patterns/light_green.png"/>
@@ -242,10 +236,7 @@
         <area cat="roam2" fill="#FFAAFF"/>
     </m>
     <m e="way" k="place" v="square" zoom-min="10">
-        <area cat="bolt" fill="#FFFFFF" mesh="true"/>
-        <area cat="roam" fill="#FFFFFF"/>
-        <area cat="bolt2" fill="#FFFFFF"/>
-        <area cat="roam2" fill="#FFFFFF"/>
+        <area fill="#FFFFFF"/>
     </m>
     <m e="way" k="man_made" v="pier" zoom-min="12" closed="no">
         <line cat="bolt" width="0.5" stroke="#000000" cap="butt"/>
@@ -442,10 +433,7 @@
                     <line use="roam2-footpath"/>
                 </m>
                 <m e="way" k="highway" v="steps" zoom-min="14">
-                    <line use="bolt-steps"/>
-                    <line use="roam-steps"/>
-                    <line use="bolt2-steps"/>
-                    <line use="roam2-steps"/>
+                    <line use="steps"/>
                 </m>
                 <m cat="trails-osm" e="way" k="highway" v="cycleway" zoom-min="12" select="first">
                     <!-- cycleways can be paved or raw -->
@@ -613,10 +601,7 @@
             <!-- region not bridges -->
             <m k="bridge" v="~|no|false">
                 <m e="way" k="highway" v="bridleway" zoom-min="14">
-                    <line cat="bolt" stroke="#FFFFFF" width="1.2" dasharray="10,12" cap="round"/>
-                    <line cat="roam" stroke="#FFFFFF" width="1.2" dasharray="10,12" cap="round"/>
-                    <line cat="bolt2" stroke="#FFFFFF" width="1.2" dasharray="10,12" cap="round"/>
-                    <line cat="roam2" stroke="#FFFFFF" width="1.2" dasharray="10,12" cap="round"/>
+                    <line stroke="#FFFFFF" width="1.2" dasharray="10,12" cap="round"/>
                 </m>
                 <m e="way" k="highway" v="service" zoom-min="12">
                     <m zoom-min="14">
