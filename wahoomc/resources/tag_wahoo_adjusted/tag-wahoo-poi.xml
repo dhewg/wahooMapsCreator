@@ -166,6 +166,7 @@
   <!-- TAGS USED STARTING WITH ROAM1 -->
   <ways>
     <osm-tag key="amenity" value="hospital" zoom-appear="12" />
+    <osm-tag key="building" value="yes" zoom-appear="12" />
 
     <osm-tag key="natural" value="beach" zoom-appear="12" />
     <osm-tag key="natural" value="scrub" zoom-appear="8" />

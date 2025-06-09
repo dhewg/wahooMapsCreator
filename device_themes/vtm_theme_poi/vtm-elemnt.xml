@@ -215,6 +215,11 @@
         <line cat="roam2" width="1" stroke="#FF5555"/>
         <area cat="roam2" src="patterns/military.svg" symbol-height="32"/>
     </m>
+    <m k="building" v="yes" zoom-min="14">
+        <line cat="roam" width="0.75" stroke="#000000"/>
+        <line cat="bolt2" width="0.75" stroke="#555555"/>
+        <line cat="roam2" width="0.75" stroke="#555555"/>
+    </m>
     <m k="amenity" v="hospital">
         <area cat="roam" fill="#FF0000"/>
         <area cat="bolt2" fill="#FFAAFF"/>
