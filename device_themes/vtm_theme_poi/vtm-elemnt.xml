@@ -13,12 +13,12 @@
         </layer>
         <layer id="BOLT_2" visible="true">
             <name lang="en" value="Bolt2"/>
-            <cat id="bolt2"/>
+            <cat id="col64"/>
             <cat id="trails-osm"/>
         </layer>
         <layer id="ROAM_2" visible="true">
             <name lang="en" value="Roam2"/>
-            <cat id="roam2"/>
+            <cat id="col64"/>
             <cat id="trails-osm"/>
         </layer>
     </stylemenu>
@@ -26,12 +26,10 @@
     <!-- Footpath -->
     <style-line id="bolt-footpath-paved" cat="bolt" stroke="#000000" width="0.5"/>
     <style-line id="roam-footpath-paved" cat="roam" stroke="#000000" width="0.5"/>
-    <style-line id="bolt2-footpath-paved" cat="bolt2" stroke="#555555" width="0.6"/>
-    <style-line id="roam2-footpath-paved" cat="roam2" stroke="#555555" width="0.6"/>
+    <style-line id="col64-footpath-paved" cat="col64" stroke="#555555" width="0.6"/>
     <style-line id="bolt-footpath" cat="bolt" use="bolt-footpath-paved" dasharray="9,3" cap="butt"/>
     <style-line id="roam-footpath" cat="roam" use="roam-footpath-paved" dasharray="9,3" cap="butt"/>
-    <style-line id="bolt2-footpath" cat="bolt2" use="bolt2-footpath-paved" dasharray="9,3" cap="butt"/>
-    <style-line id="roam2-footpath" cat="roam2" use="roam2-footpath-paved" dasharray="9,3" cap="butt"/>
+    <style-line id="col64-footpath" cat="col64" use="col64-footpath-paved" dasharray="9,3" cap="butt"/>
     <!-- Steps -->
     <style-line id="steps" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
     <!-- Paved Tracks -->
@@ -39,33 +37,26 @@
     <style-line id="bolt-track-paved-cycle" use="bolt-track-paved"/>
     <style-line id="roam-track-paved" cat="roam" stroke="#000000" width="1.0"/>
     <style-line id="roam-track-paved-cycle" use="roam-track-paved" stroke="#0000FF"/>
-    <style-line id="bolt2-track-paved" cat="bolt2" stroke="#000000" width="1.0"/>
-    <style-line id="bolt2-track-paved-cycle" use="bolt2-track-paved" stroke="#0000FF"/>
-    <style-line id="roam2-track-paved" cat="roam2" stroke="#000000" width="1.0"/>
-    <style-line id="roam2-track-paved-cycle" use="roam2-track-paved" stroke="#0000FF"/>
+    <style-line id="col64-track-paved" cat="col64" stroke="#000000" width="1.0"/>
+    <style-line id="col64-track-paved-cycle" use="col64-track-paved" stroke="#0000FF"/>
     <!-- Non-paved tracks -->
     <style-line id="bolt-track-raw" cat="bolt" stroke="#000000" width="1.0"/>
     <style-line id="bolt-track-raw-cycle" use="bolt-track-raw"/>
     <style-line id="roam-track-raw" cat="roam" stroke="#000000" width="1.0"/>
     <style-line id="roam-track-raw-cycle" stroke="#FF0000" use="roam-track-raw"/>
-    <style-line id="bolt2-track-raw" cat="bolt2" stroke="#000000" width="1.1" dasharray="3,3"/>
-    <style-line id="bolt2-track-raw-cycle" cat="bolt2" stroke="#FF0000" width="1.1" dasharray="3,3"/>
-    <style-line id="roam2-track-raw" cat="roam2" stroke="#000000" width="1.1" dasharray="3,3"/>
-    <style-line id="roam2-track-raw-cycle" cat="roam2" stroke="#FF0000" width="1.1" dasharray="3,3"/>
+    <style-line id="col64-track-raw" cat="col64" stroke="#000000" width="1.1" dasharray="3,3"/>
+    <style-line id="col64-track-raw-cycle" cat="col64" stroke="#FF0000" width="1.1" dasharray="3,3"/>
     <!-- Tracks that don't have other info -->
     <style-line id="bolt-track-other" cat="bolt" stroke="#000000" width="1.0" dasharray="5,5"/>
     <style-line id="bolt-track-other-cycle" use="bolt-track-other"/>
     <style-line id="roam-track-other" cat="roam" stroke="#000000" width="1.0" dasharray="5,5"/>
     <style-line id="roam-track-other-cycle" use="roam-track-other" stroke="#FF0000"/>
-    <style-line id="bolt2-track-other" cat="bolt2" stroke="#000000" width="1.0" dasharray="5,5"/>
-    <style-line id="bolt2-track-other-cycle" use="bolt2-track-other" stroke="#FF0000"/>
-    <style-line id="roam2-track-other" cat="roam2" stroke="#000000" width="1.0" dasharray="5,5"/>
-    <style-line id="roam2-track-other-cycle" use="roam2-track-other" stroke="#FF0000"/>
+    <style-line id="col64-track-other" cat="col64" stroke="#000000" width="1.0" dasharray="5,5"/>
+    <style-line id="col64-track-other-cycle" use="col64-track-other" stroke="#FF0000"/>
     <!-- Paved Cycleways-->
     <style-line id="bolt-cycle" cat="bolt" stroke="#000000" width="1.5"/>
     <style-line id="roam-cycle" cat="roam" stroke="#0000FF" width="1.5"/>
-    <style-line id="bolt2-cycle" cat="bolt2" stroke="#0000FF" width="1.5"/>
-    <style-line id="roam2-cycle" cat="roam2" stroke="#0000FF" width="1.5"/>
+    <style-line id="col64-cycle" cat="col64" stroke="#0000FF" width="1.5"/>
     <!-- Elevation / contour lines-->
     <style-line id="bolt-elevation-med-maj-z12" cat="bolt" stroke="#000000" width="1.1"/>
     <style-line id="bolt-elevation-med-maj-z13" cat="bolt" stroke="#000000" width="0.95"/>
@@ -89,151 +80,117 @@
     <style-line id="roam-elevation-min-z15" cat="roam" stroke="#000000" width="0.35"/>
     <style-line id="roam-elevation-min-z16" cat="roam" stroke="#000000" width="0.2"/>
     <style-line id="roam-elevation-min-z17" cat="roam" stroke="#000000" width="0.2"/>
-    <style-line id="bolt2-elevation-med-maj-z12" cat="bolt2" stroke="#AA5500" width="1.1"/>
-    <style-line id="bolt2-elevation-med-maj-z13" cat="bolt2" stroke="#AA5500" width="0.9"/>
-    <style-line id="bolt2-elevation-med-maj-z14" cat="bolt2" stroke="#AA5500" width="0.8"/>
-    <style-line id="bolt2-elevation-med-maj-z15" cat="bolt2" stroke="#AA5500" width="0.64"/>
-    <style-line id="bolt2-elevation-med-maj-z16" cat="bolt2" stroke="#AA5500" width="0.48"/>
-    <style-line id="bolt2-elevation-med-maj-z17" cat="bolt2" stroke="#AA5500" width="0.36"/>
-    <style-line id="bolt2-elevation-min-z13" cat="bolt2" stroke="#AA5500" width="0.75"/>
-    <style-line id="bolt2-elevation-min-z14" cat="bolt2" stroke="#AA5500" width="0.64"/>
-    <style-line id="bolt2-elevation-min-z15" cat="bolt2" stroke="#AA5500" width="0.48"/>
-    <style-line id="bolt2-elevation-min-z16" cat="bolt2" stroke="#AA5500" width="0.36"/>
-    <style-line id="bolt2-elevation-min-z17" cat="bolt2" stroke="#AA5500" width="0.30"/>
-    <style-line id="roam2-elevation-med-maj-z12" cat="roam2" stroke="#AA5500" width="1.1"/>
-    <style-line id="roam2-elevation-med-maj-z13" cat="roam2" stroke="#AA5500" width="0.9"/>
-    <style-line id="roam2-elevation-med-maj-z14" cat="roam2" stroke="#AA5500" width="0.8"/>
-    <style-line id="roam2-elevation-med-maj-z15" cat="roam2" stroke="#AA5500" width="0.64"/>
-    <style-line id="roam2-elevation-med-maj-z16" cat="roam2" stroke="#AA5500" width="0.48"/>
-    <style-line id="roam2-elevation-med-maj-z17" cat="roam2" stroke="#AA5500" width="0.36"/>
-    <style-line id="roam2-elevation-min-z13" cat="roam2" stroke="#AA5500" width="0.75"/>
-    <style-line id="roam2-elevation-min-z14" cat="roam2" stroke="#AA5500" width="0.64"/>
-    <style-line id="roam2-elevation-min-z15" cat="roam2" stroke="#AA5500" width="0.48"/>
-    <style-line id="roam2-elevation-min-z16" cat="roam2" stroke="#AA5500" width="0.36"/>
-    <style-line id="roam2-elevation-min-z17" cat="roam2" stroke="#AA5500" width="0.30"/>
+    <style-line id="col64-elevation-med-maj-z12" cat="col64" stroke="#AA5500" width="1.1"/>
+    <style-line id="col64-elevation-med-maj-z13" cat="col64" stroke="#AA5500" width="0.9"/>
+    <style-line id="col64-elevation-med-maj-z14" cat="col64" stroke="#AA5500" width="0.8"/>
+    <style-line id="col64-elevation-med-maj-z15" cat="col64" stroke="#AA5500" width="0.64"/>
+    <style-line id="col64-elevation-med-maj-z16" cat="col64" stroke="#AA5500" width="0.48"/>
+    <style-line id="col64-elevation-med-maj-z17" cat="col64" stroke="#AA5500" width="0.36"/>
+    <style-line id="col64-elevation-min-z13" cat="col64" stroke="#AA5500" width="0.75"/>
+    <style-line id="col64-elevation-min-z14" cat="col64" stroke="#AA5500" width="0.64"/>
+    <style-line id="col64-elevation-min-z15" cat="col64" stroke="#AA5500" width="0.48"/>
+    <style-line id="col64-elevation-min-z16" cat="col64" stroke="#AA5500" width="0.36"/>
+    <style-line id="col64-elevation-min-z17" cat="col64" stroke="#AA5500" width="0.30"/>
     <!-- end region -->
     <!-- region land/sea/waterways -->
     <m e="way" k="natural" v="sea">
         <area cat="bolt" src="patterns/gray.png"/>
         <area cat="roam" fill="#00FFFF" mesh="true"/>
-        <area cat="bolt2" fill="#00FFFF" mesh="true"/>
-        <area cat="roam2" fill="#00FFFF" mesh="true"/>
+        <area cat="col64" fill="#00FFFF" mesh="true"/>
     </m>
     <m e="way" k="natural" v="nosea">
         <area fill="#FFFFFF" mesh="true"/>
     </m>
     <m e="way" k="leisure" v="park|nature_reserve">
         <area cat="roam" src="patterns/light_green.png"/>
-        <area cat="bolt2" fill="#55FF55"/>
-        <area cat="roam2" fill="#55FF55"/>
+        <area cat="col64" fill="#55FF55"/>
         <m zoom-min="13">
             <caption fill="#000000" k="name" priority="15" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
         </m>
     </m>
     <m e="way" k="leisure|landuse" v="grass">
-        <area cat="bolt2" fill="#55FF55"/>
-        <area cat="roam2" fill="#55FF55"/>
+        <area cat="col64" fill="#55FF55"/>
     </m>
     <m e="way" k="leisure" v="pitch">
-        <area cat="bolt2" fill="#55AA55"/>
-        <area cat="roam2" fill="#55AA55"/>
+        <area cat="col64" fill="#55AA55"/>
     </m>
     <m e="way" k="natural|landcover|landuse" v="wood|trees|scrub|forest">
         <area cat="roam" fill="#00FF00"/>
-        <area cat="bolt2" fill="#00FF00"/>
-        <area cat="roam2" fill="#00FF00"/>
+        <area cat="col64" fill="#00FF00"/>
     </m>
     <m e="way" k="landuse" v="building|commercial|industrial|residential|retail">
         <area cat="roam" src="patterns/light_red.png"/>
-        <area cat="bolt2" fill="#FFAAAA"/>
-        <area cat="roam2" fill="#FFAAAA"/>
+        <area cat="col64" fill="#FFAAAA"/>
     </m>
     <m e="way" k="natural" v="wetland">
         <area cat="roam" src="patterns/wetland.png"/>
-        <area cat="bolt2" src="patterns/wetland.png"/>
-        <area cat="roam2" src="patterns/wetland.png"/>
+        <area cat="col64" src="patterns/wetland.png"/>
     </m>
     <m e="way" k="natural" v="beach" zoom-min="12">
         <area cat="roam" src="patterns/light_yellow.png"/>
-        <area cat="bolt2" fill="#FFFF00"/>
-        <area cat="roam2" fill="#FFFF00"/>
+        <area cat="col64" fill="#FFFF00"/>
     </m>
     <m e="way" k="man_made" v="cutline" zoom-min="15">
         <line cat="bolt" width="1" stroke="#000000" dasharray="5,5"/>
         <line cat="roam" width="1" stroke="#FFFF00" dasharray="5,5"/>
-        <line cat="bolt2" width="1" stroke="#AAAA55"/>
-        <line cat="roam2" width="1" stroke="#AAAA55"/>
+        <line cat="col64" width="1" stroke="#AAAA55"/>
     </m>
     <m e="way" k="natural" v="water">
         <area cat="bolt" src="patterns/gray.png"/>
         <area cat="roam" fill="#00FFFF"/>
-        <area cat="bolt2" fill="#00AAFF"/>
-        <area cat="roam2" fill="#00AAFF"/>
+        <area cat="col64" fill="#00AAFF"/>
         <caption cat="bolt" area-size="0.2" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
         <caption cat="roam" area-size="0.2" fill="#0000FF" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
-        <caption cat="bolt2" area-size="0.2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
-        <caption cat="roam2" area-size="0.2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
+        <caption cat="col64" area-size="0.2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="3" size="14" stroke="#FFFFFF" stroke-width="3.0" />
     </m>
     <m e="way" k="waterway" v="river|canal">
         <line cat="bolt" fix="true" width="1" dasharray="2,2"/>
         <line cat="roam" width="1" stroke="#00FFFF"/>
-        <line cat="bolt2" width="1" stroke="#00AAFF"/>
-        <line cat="roam2" width="1" stroke="#00AAFF"/>
+        <line cat="col64" width="1" stroke="#00AAFF"/>
         <pathText cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
         <pathText cat="roam" fill="#0000FF" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
-        <pathText cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
-        <pathText cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+        <pathText cat="col64" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
     </m>
     <m e="way" k="waterway" v="drain" zoom-min="14">
         <line cat="roam" width="1" stroke="#00FFFF"/>
-        <line cat="bolt2" width="1" stroke="#00AAFF"/>
-        <line cat="roam2" width="1" stroke="#00AAFF"/>
+        <line cat="col64" width="1" stroke="#00AAFF"/>
     </m>
     <m e="way" k="waterway" v="stream" zoom-min="14">
         <line cat="bolt" fix="true" width="1" dasharray="2,2"/>
         <line cat="roam" width="1" stroke="#00FFFF"/>
-        <line cat="bolt2" width="1.2" stroke="#00AAFF"/>
-        <line cat="roam2" width="1.2" stroke="#00AAFF"/>
+        <line cat="col64" width="1.2" stroke="#00AAFF"/>
     </m>
     <m e="way" k="waterway" v="river|riverbank|canal" closed="yes">
         <area cat="bolt" src="patterns/gray.png"/>
         <area cat="roam" fill="#00FFFF"/>
-        <area cat="bolt2" fill="#00AAFF"/>
-        <area cat="roam2" fill="#00AAFF"/>
+        <area cat="col64" fill="#00AAFF"/>
     </m>
     <m e="way" k="landuse" v="reservoir">
         <area cat="bolt" src="patterns/gray.png"/>
         <area cat="roam" fill="#00FFFF"/>
-        <area cat="bolt2" fill="#00AAFF"/>
-        <area cat="roam2" fill="#00AAFF"/>
+        <area cat="col64" fill="#00AAFF"/>
     </m>
     <m e="way" k="landuse" v="military" closed="yes" zoom-min="10">
         <line cat="bolt" width="1" stroke="#000000"/>
         <area cat="bolt" src="patterns/military_bw.svg" symbol-height="32"/>
         <line cat="roam" width="1" stroke="#FF0000"/>
         <area cat="roam" src="patterns/military.svg" symbol-height="32"/>
-        <line cat="bolt2" width="1" stroke="#FF5555"/>
-        <area cat="bolt2" src="patterns/military.svg" symbol-height="32"/>
-        <line cat="roam2" width="1" stroke="#FF5555"/>
-        <area cat="roam2" src="patterns/military.svg" symbol-height="32"/>
+        <line cat="col64" width="1" stroke="#FF5555"/>
+        <area cat="col64" src="patterns/military.svg" symbol-height="32"/>
     </m>
     <m e="way" k="landuse" v="railway">
-        <area cat="bolt2" fill="#555555"/>
-        <area cat="roam2" fill="#555555"/>
+        <area cat="col64" fill="#555555"/>
     </m>
     <m e="way" k="landuse" v="cemetery">
-        <area cat="bolt2" fill="#00AA55"/>
-        <area cat="roam2" fill="#00AA55"/>
+        <area cat="col64" fill="#00AA55"/>
     </m>
     <m k="building" v="yes" zoom-min="14">
         <line cat="roam" width="0.75" stroke="#000000"/>
-        <line cat="bolt2" width="0.75" stroke="#555555"/>
-        <line cat="roam2" width="0.75" stroke="#555555"/>
+        <line cat="col64" width="0.75" stroke="#555555"/>
     </m>
     <m k="amenity" v="hospital">
         <area cat="roam" fill="#FF0000"/>
-        <area cat="bolt2" fill="#FFAAFF"/>
-        <area cat="roam2" fill="#FFAAFF"/>
+        <area cat="col64" fill="#FFAAFF"/>
     </m>
     <m e="way" k="place" v="square" zoom-min="10">
         <area fill="#FFFFFF"/>
@@ -241,35 +198,29 @@
     <m e="way" k="man_made" v="pier" zoom-min="12" closed="no">
         <line cat="bolt" width="0.5" stroke="#000000" cap="butt"/>
         <line cat="roam" width="0.5" stroke="#FFFF00" cap="butt"/>
-        <line cat="bolt2" width="0.6" stroke="#FFFFAA" cap="butt"/>
-        <line cat="roam2" width="0.6" stroke="#FFFFAA" cap="butt"/>
+        <line cat="col64" width="0.6" stroke="#FFFFAA" cap="butt"/>
     </m>
     <m e="way" k="man_made" v="pier" zoom-min="12" closed="yes">
         <area cat="bolt" fill="#000000"/>
         <area cat="roam" fill="#FFFF00"/>
-        <area cat="bolt2" fill="#FFFFAA"/>
-        <area cat="roam2" fill="#FFFFAA"/>
+        <area cat="col64" fill="#FFFFAA"/>
     </m>
     <!-- region aeroway -->
     <m e="way" k="aeroway" v="aerodrome">
-        <area cat="bolt2" fill="#FFFFAA"/>
-        <area cat="roam2" fill="#FFFFAA"/>
+        <area cat="col64" fill="#FFFFAA"/>
     </m>
     <m e="way" k="aeroway" v="runway" zoom-min="10">
-        <line cat="bolt2" width="4" stroke="#AAAAFF"/>
-        <line cat="roam2" width="4" stroke="#AAAAFF"/>
+        <line cat="col64" width="4" stroke="#AAAAFF"/>
     </m>
     <m e="way" k="aeroway" v="taxiway" zoom-min="10">
-        <line cat="bolt2" width="2" stroke="#AAAAFF"/>
-        <line cat="roam2" width="2" stroke="#AAAAFF"/>
+        <line cat="col64" width="2" stroke="#AAAAFF"/>
     </m>
     <!-- endregion aeroway -->
     <!-- admin boundary -->
     <m k="admin_level">
         <m v="2">
             <m zoom-min="10">
-                <line cat="bolt2" stroke="#AA00AA" width="2.5" cap="butt"/>
-                <line cat="roam2" stroke="#AA00AA" width="2.5" cap="butt"/>
+                <line cat="col64" stroke="#AA00AA" width="2.5" cap="butt"/>
             </m>
         </m>
     </m>
@@ -282,8 +233,7 @@
             <!--
             <line use="bolt-elevation-med-maj-z12"/>
             <line use="roam-elevation-med-maj-z12"/>
-            <line use="roam2-elevation-med-maj-z12"/>
-            <line use="bolt2-elevation-med-maj-z12"/>
+            <line use="col64-elevation-med-maj-z12"/>
             -->
         </m>
     </m>
@@ -292,14 +242,12 @@
         <m e="way" k="contour_ext" v="elevation_minor">
             <line use="bolt-elevation-min-z13"/>
             <line use="roam-elevation-min-z13"/>
-            <line use="roam2-elevation-min-z13"/>
-            <line use="bolt2-elevation-min-z13"/>
+            <line use="col64-elevation-min-z13"/>
         </m>
         <m e="way" k="contour_ext" v="elevation_medium|elevation_major">
             <line use="bolt-elevation-med-maj-z13"/>
             <line use="roam-elevation-med-maj-z13"/>
-            <line use="roam2-elevation-med-maj-z13"/>
-            <line use="bolt2-elevation-med-maj-z13"/>
+            <line use="col64-elevation-med-maj-z13"/>
         </m>
     </m>
     <!-- contour lines level 14-->
@@ -307,14 +255,12 @@
         <m e="way" k="contour_ext" v="elevation_minor">
             <line use="bolt-elevation-min-z14"/>
             <line use="roam-elevation-min-z14"/>
-            <line use="roam2-elevation-min-z14"/>
-            <line use="bolt2-elevation-min-z14"/>
+            <line use="col64-elevation-min-z14"/>
         </m>
         <m e="way" k="contour_ext" v="elevation_medium|elevation_major">
             <line use="bolt-elevation-med-maj-z14"/>
             <line use="roam-elevation-med-maj-z14"/>
-            <line use="roam2-elevation-med-maj-z14"/>
-            <line use="bolt2-elevation-med-maj-z14"/>
+            <line use="col64-elevation-med-maj-z14"/>
         </m>
     </m>
     <!-- contour lines level 15-->
@@ -322,14 +268,12 @@
         <m e="way" k="contour_ext" v="elevation_minor" zoom-max="15">
             <line use="bolt-elevation-min-z15"/>
             <line use="roam-elevation-min-z15"/>
-            <line use="roam2-elevation-min-z15"/>
-            <line use="bolt2-elevation-min-z15"/>
+            <line use="col64-elevation-min-z15"/>
         </m>
         <m e="way" k="contour_ext" v="elevation_medium|elevation_major">
             <line use="bolt-elevation-med-maj-z15"/>
             <line use="roam-elevation-med-maj-z15"/>
-            <line use="roam2-elevation-med-maj-z15"/>
-            <line use="bolt2-elevation-med-maj-z15"/>
+            <line use="col64-elevation-med-maj-z15"/>
             <m e="way">
                 <pathText k="ele" font-style="bold" font-size="10" fill="#000000" stroke="#FFFFFF" stroke-width="1.0"/>
             </m>
@@ -340,14 +284,12 @@
         <m e="way" k="contour_ext" v="elevation_minor">
             <line use="bolt-elevation-min-z16"/>
             <line use="roam-elevation-min-z16"/>
-            <line use="roam2-elevation-min-z16"/>
-            <line use="bolt2-elevation-min-z16"/>
+            <line use="col64-elevation-min-z16"/>
         </m>
         <m e="way" k="contour_ext" v="elevation_medium|elevation_major">
             <line use="bolt-elevation-med-maj-z16"/>
             <line use="roam-elevation-med-maj-z16"/>
-            <line use="roam2-elevation-med-maj-z16"/>
-            <line use="bolt2-elevation-med-maj-z16"/>
+            <line use="col64-elevation-med-maj-z16"/>
             <m e="way">
                 <pathText k="ele" font-style="bold" font-size="14" fill="#000000" stroke="#FFFFFF" stroke-width="1.5"/>
             </m>
@@ -358,14 +300,12 @@
         <m e="way" k="contour_ext" v="elevation_minor">
             <line use="bolt-elevation-min-z17"/>
             <line use="roam-elevation-min-z17"/>
-            <line use="roam2-elevation-min-z17"/>
-            <line use="bolt2-elevation-min-z17"/>
+            <line use="col64-elevation-min-z17"/>
         </m>
         <m e="way" k="contour_ext" v="elevation_medium|elevation_major">
             <line use="bolt-elevation-med-maj-z17"/>
             <line use="roam-elevation-med-maj-z17"/>
-            <line use="roam2-elevation-med-maj-z17"/>
-            <line use="bolt2-elevation-med-maj-z17"/>
+            <line use="col64-elevation-med-maj-z17"/>
             <m e="way">
                 <pathText k="ele" font-style="bold" font-size="14" fill="#000000" stroke="#FFFFFF" stroke-width="1.5"/>
             </m>
@@ -382,14 +322,10 @@
         <outline-layer cat="roam" id="roam-major-roads" stroke="#000000" width="0.6"/>
         <outline-layer cat="roam" id="roam-minor-roads" stroke="#000000" width="0.4"/>
         <outline-layer cat="roam" id="roam-bikepath" stroke="#000000" width="0.4"/>
-        <outline-layer cat="bolt2" id="bolt2-highway" stroke="#550000" width="1"/>
-        <outline-layer cat="bolt2" id="bolt2-major-roads" stroke="#000000" width="0.6"/>
-        <outline-layer cat="bolt2" id="bolt2-minor-roads" stroke="#000000" width="0.4"/>
-        <outline-layer cat="bolt2" id="bolt2-bikepath" stroke="#000000" width="0.4"/>
-        <outline-layer cat="roam2" id="roam2-highway" stroke="#550000" width="1"/>
-        <outline-layer cat="roam2" id="roam2-major-roads" stroke="#000000" width="0.6"/>
-        <outline-layer cat="roam2" id="roam2-minor-roads" stroke="#000000" width="0.4"/>
-        <outline-layer cat="roam2" id="roam2-bikepath" stroke="#000000" width="0.4"/>
+        <outline-layer cat="col64" id="col64-highway" stroke="#550000" width="1"/>
+        <outline-layer cat="col64" id="col64-major-roads" stroke="#000000" width="0.6"/>
+        <outline-layer cat="col64" id="col64-minor-roads" stroke="#000000" width="0.4"/>
+        <outline-layer cat="col64" id="col64-bikepath" stroke="#000000" width="0.4"/>
         <!-- the outline of bridges -->
         <outline-layer id="bridge" stroke="#000000" width="1"/>
         <outline-layer id="bridge_small" stroke="#000000" width="0.6"/>
@@ -400,8 +336,7 @@
                 <area fill="#FF00FF"/>
                 <area cat="bolt" fill="#FFFFFF"/>
                 <area cat="roam" fill="#FFFFFF"/>
-                <area cat="bolt2" fill="#AAAAAA"/>
-                <area cat="roam2" fill="#AAAAAA"/>
+                <area cat="col64" fill="#AAAAAA"/>
             </m>
         </m>
         <!-- endregion area:highway=pedestrian -->
@@ -429,8 +364,7 @@
                 <m e="way" k="highway" v="footway|pedestrian" zoom-min="14">
                     <line use="bolt-footpath"/>
                     <line use="roam-footpath"/>
-                    <line use="bolt2-footpath"/>
-                    <line use="roam2-footpath"/>
+                    <line use="col64-footpath"/>
                 </m>
                 <m e="way" k="highway" v="steps" zoom-min="14">
                     <line use="steps"/>
@@ -440,14 +374,12 @@
                     <m k="surface" v="bic_paved">
                         <line use="bolt-cycle"/>
                         <line use="roam-cycle" outline="roam-bikepath"/>
-                        <line use="bolt2-cycle" outline="bolt2-bikepath"/>
-                        <line use="roam2-cycle" outline="roam2-bikepath"/>
+                        <line use="col64-cycle" outline="col64-bikepath"/>
                     </m>
                     <m>
                         <line use="bolt-track-raw-cycle"/>
                         <line use="roam-track-raw-cycle"/>
-                        <line use="bolt2-track-raw-cycle"/>
-                        <line use="roam2-track-raw-cycle"/>
+                        <line use="col64-track-raw-cycle"/>
                     </m>
                 </m>
                 <m e="way" k="highway" v="path" zoom-min="12" select="first">
@@ -456,8 +388,7 @@
                         <m k="surface" v="bic_paved">
                             <line use="bolt-track-paved-cycle"/>
                             <line use="roam-track-paved-cycle" outline="roam-bikepath"/>
-                            <line use="bolt2-track-paved-cycle" outline="bolt2-bikepath"/>
-                            <line use="roam2-track-paved-cycle" outline="roam2-bikepath"/>
+                            <line use="col64-track-paved-cycle" outline="col64-bikepath"/>
                         </m>
                     </m>
                     <m k="foot" v="ft_yes|ft_designated" zoom-min="13">
@@ -465,22 +396,19 @@
                         <m k="surface" v="bic_paved">
                             <line use="bolt-footpath-paved"/>
                             <line use="roam-footpath-paved"/>
-                            <line use="bolt2-footpath-paved"/>
-                            <line use="roam2-footpath-paved"/>
+                            <line use="col64-footpath-paved"/>
                         </m>
                     </m>
                     <m k="surface" v="bic_paved">
                         <line use="bolt-track-paved"/>
                         <line use="roam-track-paved"/>
-                        <line use="bolt2-track-paved"/>
-                        <line use="roam2-track-paved"/>
+                        <line use="col64-track-paved"/>
                     </m>
                     <m k="highway" v="path" zoom-min="14">
                         <!-- remainder -->
                         <line use="bolt-footpath"/>
                         <line use="roam-footpath"/>
-                        <line use="bolt2-footpath"/>
-                        <line use="roam2-footpath"/>
+                        <line use="col64-footpath"/>
                     </m>
                 </m>
                 <m e="way" k="highway" v="track|byway" zoom-min="12" select="first">
@@ -489,8 +417,7 @@
                         <m k="surface" v="bic_paved">
                             <line use="bolt-track-paved-cycle"/>
                             <line use="roam-track-paved-cycle" outline="roam-bikepath"/>
-                            <line use="bolt2-track-paved-cycle" outline="bolt2-bikepath"/>
-                            <line use="roam2-track-paved-cycle" outline="roam2-bikepath"/>
+                            <line use="col64-track-paved-cycle" outline="col64-bikepath"/>
                         </m>
                     </m>
                     <m k="tracktype" v="grade1">
@@ -498,14 +425,12 @@
                         <m k="bicycle" v="bic_yes|bic_designated">
                             <line use="bolt-track-paved-cycle"/>
                             <line use="roam-track-paved-cycle"/>
-                            <line use="bolt2-track-paved-cycle"/>
-                            <line use="roam2-track-paved-cycle"/>
+                            <line use="col64-track-paved-cycle"/>
                         </m>
                         <m k="bicycle" v="~">
                             <line use="bolt-track-paved"/>
                             <line use="roam-track-paved"/>
-                            <line use="bolt2-track-paved"/>
-                            <line use="roam2-track-paved"/>
+                            <line use="col64-track-paved"/>
                         </m>
                     </m>
                     <m zoom-min="12">
@@ -514,14 +439,12 @@
                             <m k="bicycle" v="bic_yes|bic_designated">
                                 <line use="bolt-track-raw-cycle" dasharray="50,3,5,3,5,3"/>
                                 <line use="roam-track-raw-cycle" dasharray="50,3,5,3,5,3"/>
-                                <line use="bolt2-track-raw-cycle" dasharray="50,3,5,3,5,3"/>
-                                <line use="roam2-track-raw-cycle" dasharray="50,3,5,3,5,3"/>
+                                <line use="col64-track-raw-cycle" dasharray="50,3,5,3,5,3"/>
                             </m>
                             <m k="bicycle" v="~">
                                 <line use="bolt-track-raw" dasharray="50,3,5,3,5,3"/>
                                 <line use="roam-track-raw" dasharray="50,3,5,3,5,3"/>
-                                <line use="bolt2-track-raw" dasharray="50,3,5,3,5,3"/>
-                                <line use="roam2-track-raw" dasharray="50,3,5,3,5,3"/>
+                                <line use="col64-track-raw" dasharray="50,3,5,3,5,3"/>
                             </m>
                         </m>
                         <m k="tracktype" v="grade3">
@@ -529,14 +452,12 @@
                             <m k="bicycle" v="bic_yes|bic_designated">
                                 <line use="bolt-track-raw-cycle" dasharray="45,3,5,3,5,3,5,3"/>
                                 <line use="roam-track-raw-cycle" dasharray="45,3,5,3,5,3,5,3"/>
-                                <line use="bolt2-track-raw-cycle" dasharray="45,3,5,3,5,3,5,3"/>
-                                <line use="roam2-track-raw-cycle" dasharray="45,3,5,3,5,3,5,3"/>
+                                <line use="col64-track-raw-cycle" dasharray="45,3,5,3,5,3,5,3"/>
                             </m>
                             <m k="bicycle" v="~">
                                 <line use="bolt-track-raw" dasharray="45,3,5,3,5,3,5,3"/>
                                 <line use="roam-track-raw" dasharray="45,3,5,3,5,3,5,3"/>
-                                <line use="bolt2-track-raw" dasharray="45,3,5,3,5,3,5,3"/>
-                                <line use="roam2-track-raw" dasharray="45,3,5,3,5,3,5,3"/>
+                                <line use="col64-track-raw" dasharray="45,3,5,3,5,3,5,3"/>
                             </m>
                         </m>
                         <m k="tracktype" v="grade4">
@@ -545,14 +466,12 @@
                             <m k="bicycle" v="bic_yes|bic_designated">
                                 <line use="bolt-track-raw-cycle" dasharray="40,3,5,3,5,3,5,3,5,3"/>
                                 <line use="roam-track-raw-cycle" dasharray="40,3,5,3,5,3,5,3,5,3"/>
-                                <line use="bolt2-track-raw-cycle" dasharray="40,3,5,3,5,3,5,3,5,3"/>
-                                <line use="roam2-track-raw-cycle" dasharray="40,3,5,3,5,3,5,3,5,3"/>
+                                <line use="col64-track-raw-cycle" dasharray="40,3,5,3,5,3,5,3,5,3"/>
                             </m>
                             <m k="bicycle" v="~">
                                 <line use="bolt-track-raw" dasharray="40,3,5,3,5,3,5,3,5,3"/>
                                 <line use="roam-track-raw" dasharray="40,3,5,3,5,3,5,3,5,3"/>
-                                <line use="bolt2-track-raw" dasharray="40,3,5,3,5,3,5,3,5,3"/>
-                                <line use="roam2-track-raw" dasharray="40,3,5,3,5,3,5,3,5,3"/>
+                                <line use="col64-track-raw" dasharray="40,3,5,3,5,3,5,3,5,3"/>
                             </m>
                         </m>
                         <m k="tracktype" v="grade5">
@@ -562,14 +481,12 @@
                             <m k="bicycle" v="bic_yes|bic_designated">
                                 <line use="bolt-track-raw-cycle" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
                                 <line use="roam-track-raw-cycle" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
-                                <line use="bolt2-track-raw-cycle" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
-                                <line use="roam2-track-raw-cycle" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
+                                <line use="col64-track-raw-cycle" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
                             </m>
                             <m k="bicycle" v="~">
                                 <line use="bolt-track-raw" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
                                 <line use="roam-track-raw" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
-                                <line use="bolt2-track-raw" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
-                                <line use="roam2-track-raw" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
+                                <line use="col64-track-raw" dasharray="35,3,5,3,5,3,5,3,5,3,5,3"/>
                             </m>
                         </m>
                         <m e="way" k="tracktype" v="~" select="first">
@@ -577,21 +494,18 @@
                             <m k="bicycle" v="bic_yes|bic_designated">
                                 <line use="bolt-track-other-cycle" cap="butt"/>
                                 <line use="roam-track-other-cycle" cap="butt"/>
-                                <line use="bolt2-track-other-cycle" cap="butt"/>
-                                <line use="roam2-track-other-cycle" cap="butt"/>
+                                <line use="col64-track-other-cycle" cap="butt"/>
                             </m>
                             <m k="bicycle" v="~">
                                 <line use="bolt-track-other" cap="butt"/>
                                 <line use="roam-track-other" cap="butt"/>
-                                <line use="bolt2-track-other" cap="butt"/>
-                                <line use="roam2-track-other" cap="butt"/>
+                                <line use="col64-track-other" cap="butt"/>
                             </m>
                             <m k="foot" v="ft_yes|ft_designated">
                                 <!-- specifically for foot -->
                                 <line use="bolt-footpath"/>
                                 <line use="roam-footpath"/>
-                                <line use="bolt2-footpath"/>
-                                <line use="roam2-footpath"/>
+                                <line use="col64-footpath"/>
                             </m>
                         </m>
                     </m>
@@ -608,68 +522,57 @@
                         <line cat="bolt" stroke="#FFFFFF" outline="bolt-minor-roads" width="1.3"/>
                         <line cat="roam" stroke="#FFFFFF" outline="roam-minor-roads" width="1.3"/>
                     </m>
-                    <line cat="bolt2" stroke="#BBBBBB" outline="bolt2-minor-roads" width="1.3"/>
-                    <line cat="roam2" stroke="#BBBBBB" outline="roam2-minor-roads" width="1.3"/>
+                    <line cat="col64" stroke="#BBBBBB" outline="col64-minor-roads" width="1.3"/>
                 </m>
                 <m e="way" k="highway" v="construction" zoom-min="10">
                     <line cat="bolt" outline="highway-bolt" stroke="#000000" width="2" dasharray="15,5" cap="butt"/>
                     <line cat="roam" stroke="#FF0000" width="2" dasharray="15,5" cap="butt"/>
-                    <line cat="bolt2" stroke="#FF5500" width="2" dasharray="15,5" cap="butt"/>
-                    <line cat="roam2" stroke="#FF5500" width="2" dasharray="15,5" cap="butt"/>
+                    <line cat="col64" stroke="#FF5500" width="2" dasharray="15,5" cap="butt"/>
                 </m>
                 <m e="way" k="highway" v="residential|living_street|road|unclassified" zoom-min="14">
                     <line cat="bolt" stroke="#FFFFFF" outline="bolt-major-roads" width="1.5"/>
                     <line cat="roam" stroke="#FFFFFF" outline="roam-major-roads" width="1.5"/>
-                    <line cat="bolt2" stroke="#FFFFFF" outline="bolt2-major-roads" width="1.5"/>
-                    <line cat="roam2" stroke="#FFFFFF" outline="roam2-major-roads" width="1.5"/>
+                    <line cat="col64" stroke="#FFFFFF" outline="col64-major-roads" width="1.5"/>
                 </m>
                 <m e="way" k="highway" v="residential|living_street" zoom-min="12" zoom-max="13">
                     <line cat="bolt" stroke="#000000" width="1.5"/>
                     <line cat="roam" stroke="#000000" width="1.5"/>
-                    <line cat="bolt2" stroke="#FFFFFF" outline="bolt2-major-roads" width="1.5"/>
-                    <line cat="roam2" stroke="#FFFFFF" outline="roam2-major-roads" width="1.5"/>
+                    <line cat="col64" stroke="#FFFFFF" outline="col64-major-roads" width="1.5"/>
                 </m>
                 <m e="way" k="highway" v="road|unclassified" zoom-min="10" zoom-max="13">
                     <line cat="bolt" stroke="#000000" width="1.5"/>
                     <line cat="roam" stroke="#000000" width="1.5"/>
-                    <line cat="bolt2" stroke="#FFFFFF" outline="bolt2-major-roads" width="2"/>
-                    <line cat="roam2" stroke="#FFFFFF" outline="roam2-major-roads" width="2"/>
+                    <line cat="col64" stroke="#FFFFFF" outline="col64-major-roads" width="2"/>
                 </m>
                 <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="10">
                     <line cat="bolt" outline="bolt-major-roads" stroke="#FFFFFF" width="3.5"/>
                     <line cat="roam" outline="roam-major-roads" stroke="#FFFF00" width="3.5"/>
-                    <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFFF00" width="2.5"/>
-                    <line cat="roam2" outline="roam2-major-roads" stroke="#FFFF00" width="2.5"/>
+                    <line cat="col64" outline="col64-major-roads" stroke="#FFFF00" width="2.5"/>
                 </m>
                 <m e="way" k="highway" v="primary_link|trunk_link|motorway_link|primary|trunk" zoom-min="9">
                     <line cat="bolt" outline="bolt-major-roads" stroke="#FFFFFF" width="3.5"/>
                     <line cat="roam" outline="roam-major-roads" stroke="#FFFF00" width="3.5"/>
-                    <line cat="bolt2" outline="bolt2-major-roads" stroke="#FFAA00" width="2.5"/>
-                    <line cat="roam2" outline="roam2-major-roads" stroke="#FFAA00" width="2.5"/>
+                    <line cat="col64" outline="col64-major-roads" stroke="#FFAA00" width="2.5"/>
                 </m>
                 <m e="way" k="highway" v="motorway" zoom-min="12">
                     <line cat="bolt" outline="bolt-highway" stroke="#FFFFFF" width="4"/>
                     <line cat="roam" outline="roam-highway" stroke="#FF0000" width="4"/>
-                    <line cat="bolt2" outline="bolt2-highway" stroke="#BB0000" width="3.5"/>
-                    <line cat="roam2" outline="roam2-highway" stroke="#BB0000" width="3.5"/>
+                    <line cat="col64" outline="col64-highway" stroke="#BB0000" width="3.5"/>
                 </m>
                 <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
                     <line cat="bolt" outline="bolt-highway" stroke="#FFFFFF" width="4"/>
                     <line cat="roam" outline="roam-highway" stroke="#FF0000" width="4"/>
-                    <line cat="bolt2" outline="bolt2-highway" stroke="#BB0000" width="4"/>
-                    <line cat="roam2" outline="roam2-highway" stroke="#BB0000" width="4"/>
+                    <line cat="col64" outline="col64-highway" stroke="#BB0000" width="4"/>
                 </m>
                 <!-- ferry -->
                 <m k="route" v="ferry">
                     <m zoom-min="11">
                         <line cat="bolt" stroke="#000000" width="0.6" dasharray="15,5" cap="butt"/>
                         <line cat="roam" stroke="#0000FF" width="0.6" dasharray="15,5" cap="butt"/>
-                        <line cat="bolt2" stroke="#0000AA" width="0.6" dasharray="15,5" cap="butt"/>
-                        <line cat="roam2" stroke="#0000AA" width="0.6" dasharray="15,5" cap="butt"/>
+                        <line cat="col64" stroke="#0000AA" width="0.6" dasharray="15,5" cap="butt"/>
                         <pathText cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
                         <pathText cat="roam" fill="#0000FF" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
-                        <pathText cat="bolt2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
-                        <pathText cat="roam2" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
+                        <pathText cat="col64" fill="#0000AA" k="name" font-family="sans_serif" font-style="bold" priority="2" size="16" stroke="#FFFFFF" stroke-width="3.0"/>
                     </m>
                 </m>
                 <!-- endregion ferry -->
@@ -683,14 +586,12 @@
                 <m e="way" k="highway" v="service" zoom-min="12">
                     <line cat="bolt" outline="bridge_small" cap="butt" stroke="#FFFFFF" width="1.3"/>
                     <line cat="roam" outline="bridge_small" cap="butt" stroke="#FFFFFF" width="1.3"/>
-                    <line cat="bolt2" outline="bridge_small" cap="butt" stroke="#BBBBBB" width="1.3"/>
-                    <line cat="roam2" outline="bridge_small" cap="butt" stroke="#BBBBBB" width="1.3"/>
+                    <line cat="col64" outline="bridge_small" cap="butt" stroke="#BBBBBB" width="1.3"/>
                 </m>
                 <m e="way" k="highway" v="construction" zoom-min="12">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#000000" width="1.3" dasharray="15,2"/>
                     <line cat="roam" outline="bridge" cap="butt" stroke="#FF0000" width="1.3" dasharray="15,2"/>
-                    <line cat="bolt2" outline="bridge" cap="butt" stroke="#FF5500" width="1.3" dasharray="15,2"/>
-                    <line cat="roam2" outline="bridge" cap="butt" stroke="#FF5500" width="1.3" dasharray="15,2"/>
+                    <line cat="col64" outline="bridge" cap="butt" stroke="#FF5500" width="1.3" dasharray="15,2"/>
                 </m>
                 <m e="way" k="highway" v="unclassified|residential|living_street|road" zoom-min="12">
                     <line outline="bridge" cap="butt" stroke="#FFFFFF" width="2"/>
@@ -698,44 +599,37 @@
                 <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="12">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
                     <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-                    <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-                    <line cat="roam2" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
+                    <line cat="col64" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
                 </m>
                 <m e="way" k="highway" v="primary_link|trunk_link|primary|trunk" zoom-min="12">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
                     <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-                    <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
-                    <line cat="roam2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
+                    <line cat="col64" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
                 </m>
                 <m e="way" k="highway" v="trunk" zoom-max="12" zoom-min="11">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3"/>
                     <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="3"/>
-                    <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="3"/>
-                    <line cat="roam2" outline="bridge" cap="butt" stroke="#FFAA00" width="3"/>
+                    <line cat="col64" outline="bridge" cap="butt" stroke="#FFAA00" width="3"/>
                 </m>
                 <m e="way" k="highway" v="motorway_link" zoom-min="12">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
                     <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-                    <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
-                    <line cat="roam2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
+                    <line cat="col64" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
                 </m>
                 <m e="way" k="highway" v="motorway" zoom-min="12">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3.5"/>
                     <line cat="roam" outline="bridge" cap="butt" stroke="#FF0000" width="3.5"/>
-                    <line cat="bolt2" outline="bridge" cap="butt" stroke="#BB0000" width="3.5"/>
-                    <line cat="roam2" outline="bridge" cap="butt" stroke="#BB0000" width="3.5"/>
+                    <line cat="col64" outline="bridge" cap="butt" stroke="#BB0000" width="3.5"/>
                 </m>
                 <m e="way" k="highway" v="motorway_link" zoom-min="8" zoom-max="11">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
                     <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-                    <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.5"/>
-                    <line cat="roam2" outline="bridge" cap="butt" stroke="#AA5500" width="2.5"/>
+                    <line cat="col64" outline="bridge" cap="butt" stroke="#AA5500" width="2.5"/>
                 </m>
                 <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="4"/>
                     <line cat="roam" outline="bridge" cap="butt" stroke="#FF0000" width="4"/>
-                    <line cat="bolt2" outline="bridge" cap="butt" stroke="#BB0000" width="4"/>
-                    <line cat="roam2" outline="bridge" cap="butt" stroke="#BB0000" width="4"/>
+                    <line cat="col64" outline="bridge" cap="butt" stroke="#BB0000" width="4"/>
                 </m>
             </m>
             <!-- endregion bridges-->
@@ -752,14 +646,12 @@
         <m e="way" k="highway" v="service" zoom-min="12">
             <line cat="bolt" outline="bridge_small" cap="butt" stroke="#FFFFFF" width="1.3"/>
             <line cat="roam" outline="bridge_small" cap="butt" stroke="#FFFFFF" width="1.3"/>
-            <line cat="bolt2" outline="bridge_small" cap="butt" stroke="#BBBBBB" width="1.3"/>
-            <line cat="roam2" outline="bridge_small" cap="butt" stroke="#BBBBBB" width="1.3"/>
+            <line cat="col64" outline="bridge_small" cap="butt" stroke="#BBBBBB" width="1.3"/>
         </m>
         <m e="way" k="highway" v="construction" zoom-min="12">
             <line cat="bolt" outline="bridge" cap="butt" stroke="#000000" width="1.3" dasharray="15,2"/>
             <line cat="roam" outline="bridge" cap="butt" stroke="#FF0000" width="1.3" dasharray="15,2"/>
-            <line cat="bolt2" outline="bridge" cap="butt" stroke="#FF5500" width="1.3" dasharray="15,2"/>
-            <line cat="roam2" outline="bridge" cap="butt" stroke="#FF5500" width="1.3" dasharray="15,2"/>
+            <line cat="col64" outline="bridge" cap="butt" stroke="#FF5500" width="1.3" dasharray="15,2"/>
         </m>
         <m e="way" k="highway" v="unclassified|residential|living_street|road" zoom-min="12">
             <line outline="bridge" cap="butt" stroke="#FFFFFF" width="2"/>
@@ -767,50 +659,42 @@
         <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="12">
             <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
             <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-            <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-            <line cat="roam2" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
+            <line cat="col64" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
         </m>
         <m e="way" k="highway" v="primary_link|trunk_link|primary|trunk" zoom-min="12">
             <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
             <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-            <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
-            <line cat="roam2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
+            <line cat="col64" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
         </m>
         <m e="way" k="highway" v="trunk" zoom-max="12" zoom-min="11">
             <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3"/>
             <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="3"/>
-            <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="3"/>
-            <line cat="roam2" outline="bridge" cap="butt" stroke="#FFAA00" width="3"/>
+            <line cat="col64" outline="bridge" cap="butt" stroke="#FFAA00" width="3"/>
         </m>
         <m e="way" k="highway" v="motorway_link" zoom-min="12">
             <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
             <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-            <line cat="bolt2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
-            <line cat="roam2" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
+            <line cat="col64" outline="bridge" cap="butt" stroke="#FFAA00" width="2.5"/>
         </m>
         <m e="way" k="highway" v="motorway" zoom-min="12">
             <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3.5"/>
             <line cat="roam" outline="bridge" cap="butt" stroke="#FF0000" width="3.5"/>
-            <line cat="bolt2" outline="bridge" cap="butt" stroke="#BB0000" width="3.5"/>
-            <line cat="roam2" outline="bridge" cap="butt" stroke="#BB0000" width="3.5"/>
+            <line cat="col64" outline="bridge" cap="butt" stroke="#BB0000" width="3.5"/>
         </m>
         <m e="way" k="highway" v="motorway_link" zoom-min="8" zoom-max="11">
             <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
             <line cat="roam" outline="bridge" cap="butt" stroke="#FFFF00" width="2.5"/>
-            <line cat="bolt2" outline="bridge" cap="butt" stroke="#AA5500" width="2.5"/>
-            <line cat="roam2" outline="bridge" cap="butt" stroke="#AA5500" width="2.5"/>
+            <line cat="col64" outline="bridge" cap="butt" stroke="#AA5500" width="2.5"/>
         </m>
         <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
             <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="4"/>
             <line cat="roam" outline="bridge" cap="butt" stroke="#FF0000" width="4"/>
-            <line cat="bolt2" outline="bridge" cap="butt" stroke="#BB0000" width="4"/>
-            <line cat="roam2" outline="bridge" cap="butt" stroke="#BB0000" width="4"/>
+            <line cat="col64" outline="bridge" cap="butt" stroke="#BB0000" width="4"/>
         </m>
         <m k="highway" v="cycleway">
             <line use="bolt-cycle" stroke-dasharray="15,10" stroke-linecap="butt"/>
             <line use="roam-cycle" stroke-dasharray="15,10" stroke-linecap="butt"/>
-            <line use="bolt2-cycle" outline="bolt2-bikepath" stroke-dasharray="15,10" stroke-linecap="butt"/>
-            <line use="roam2-cycle" outline="roam2-bikepath" stroke-dasharray="15,10" stroke-linecap="butt"/>
+            <line use="col64-cycle" outline="col64-bikepath" stroke-dasharray="15,10" stroke-linecap="butt"/>
         </m>
     </m>
     <!-- endregion tunnels-->
@@ -823,8 +707,7 @@
             <m v="tram|light_rail" zoom-min="15">
                 <line cat="bolt" cap="butt" fade="12" fix="true" stipple="25" stipple-stroke="#FFFFFF" stipple-width="0.7" stroke="#000000" width="3"/>
                 <line cat="roam" cap="butt" fade="12" fix="true" stipple="25" stipple-stroke="#FFFFFF" stipple-width="0.7" stroke="#000000" width="3"/>
-                <line cat="bolt2" cap="butt" fade="12" fix="true" stipple="25" stipple-stroke="#FFFFFF" stipple-width="0.7" stroke="#555555" width="3"/>
-                <line cat="roam2" cap="butt" fade="12" fix="true" stipple="25" stipple-stroke="#FFFFFF" stipple-width="0.7" stroke="#555555" width="3"/>
+                <line cat="col64" cap="butt" fade="12" fix="true" stipple="25" stipple-stroke="#FFFFFF" stipple-width="0.7" stroke="#555555" width="3"/>
             </m>
         </m>
     </m>
